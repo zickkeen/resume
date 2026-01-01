@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+    --primary: #0f172a;
+    --accent: #2563eb;
+    --text-main: #334155;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #525252; /* Dark bg for screen preview */
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+
+h1, h2, h3, h4, .font-heading {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* A4 Paper Styling */
+.page {
+    background: white;
+    width: 210mm;
+    min-height: 297mm;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    position: relative;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: var(--primary);
+    color: white;
+    width: 30%;
+    padding: 2rem 1.5rem;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+/* Main Content */
+.main {
+    width: 70%;
+    padding: 2.5rem 3rem;
+}
+
+/* Skill Tags */
+.skill-tag {
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 2px 6px;
+    font-size: 0.65rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+
+/* Timeline */
+.timeline-item {
+    position: relative;
+    padding-left: 20px;
+    border-left: 2px solid #e2e8f0;
+    padding-bottom: 1.5rem;
+}
+.timeline-item:last-child { border-left: none; padding-bottom: 0; }
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -7px;
+    top: 5px;
+    width: 12px;
+    height: 12px;
+    background: white;
+    border: 3px solid var(--accent);
+    border-radius: 50%;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+}
+
+/* Compact List for Print */
+ul.compact-list li {
+    margin-bottom: 0.2rem;
+}
+
+/* Print Specifics - FIX CUT OFF ISSUES */
+@media print {
+    body { 
+        background: none; 
+        padding: 0; 
+        display: block;
+        margin: 0;
+    }
+    .page { 
+        width: 100%; 
+        height: auto; /* Allow height to expand */
+        box-shadow: none; 
+        margin: 0;
+        overflow: visible;
+        display: flex; /* Keep flex to maintain sidebar layout */
+    }
+    
+    /* CRITICAL FIX: 
+       Allow sections to break, but prevent breaking inside individual items 
+       (Timeline items, Sidebar blocks, Grid cards)
+    */
+    
+    /* Allow main sections to flow across pages */
+    section {
+        page-break-inside: auto;
+        break-inside: auto;
+    }
+
+    /* Prevent splitting specific items in half */
+    .timeline-item, 
+    .sidebar > div, 
+    .grid > div,
+    li { 
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    /* Ensure headers stick to their content immediately following */
+    h2, h3 {
+        page-break-after: avoid;
+        break-after: avoid;
+    }
+
+    .no-print { display: none !important; }
+    
+    /* Force background colors */
+    * { 
+        -webkit-print-color-adjust: exact !important; 
+        print-color-adjust: exact !important; 
+    }
+}

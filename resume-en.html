@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Muhamad Tuhfatur Roziqin (Print Version)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/resume.css">
+</head>
+<body>
+
+    <!-- Print Button -->
+    <div class="no-print fixed bottom-8 right-8 z-50">
+        <button onclick="window.print()" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all flex items-center gap-2 px-4 py-3" title="Save PDF">
+            <i class="fas fa-print text-xl"></i> Save PDF
+        </button>
+    </div>
+
+    <!-- Language Switch -->
+    <div class="no-print fixed top-4 right-4 z-50 flex gap-2">
+        <a href="#" onclick="switchResumeLang('resume.html'); return false;" class="px-3 py-1 rounded-full bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition">ID</a>
+        <a href="#" onclick="switchResumeLang('resume-en.html'); return false;" class="px-3 py-1 rounded-full bg-white text-slate-900 font-semibold">EN</a>
+    </div>
+
+    <div class="page">
+        <!-- Sidebar -->
+        <aside class="sidebar flex flex-col gap-6">
+            <!-- Contact -->
+            <div>
+                <h3 class="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">Contact</h3>
+                <div class="text-xs space-y-2">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-envelope text-blue-400 w-4"></i> <span class="break-all">me@fatur.my.id</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-phone text-blue-400 w-4"></i> +62 851 0528 8796
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-map-marker-alt text-blue-400 w-4"></i> East Java, ID
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-globe text-blue-400 w-4"></i> fatur.my.id
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <i class="fab fa-linkedin text-blue-400 w-4"></i> zickkeen
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skills (Updated to Match Tech Arsenal) -->
+            <div>
+                <h3 class="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">Tech Arsenal</h3>
+                
+                <div class="mb-3">
+                    <p class="text-[10px] text-blue-400 font-bold mb-1 uppercase">SysAdmin & Cloud</p>
+                    <div>
+                        <span class="skill-tag">CloudLinux</span> <span class="skill-tag">cPanel/WHM</span>
+                        <span class="skill-tag">Proxmox VE</span> <span class="skill-tag">Virtualizor</span>
+                        <span class="skill-tag">Docker</span> <span class="skill-tag">Ceph</span>
+                        <span class="skill-tag">KVM/OpenVZ</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <p class="text-[10px] text-blue-400 font-bold mb-1 uppercase">Network & Security</p>
+                    <div>
+                        <span class="skill-tag">Wazuh SIEM</span> <span class="skill-tag">Bitninja</span>
+                        <span class="skill-tag">Mikrotik</span> <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">BGP/OSPF</span> <span class="skill-tag">Pentest</span>
+                        <span class="skill-tag">Incident Response</span>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <p class="text-[10px] text-blue-400 font-bold mb-1 uppercase">Dev & IoT</p>
+                    <div>
+                        <span class="skill-tag">Python</span> <span class="skill-tag">Bash</span>
+                        <span class="skill-tag">PHP/Laravel</span> <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Go</span> <span class="skill-tag">C/C++</span>
+                        <span class="skill-tag">ESP32 & Arduino</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills (From Commissioner Role) -->
+            <div>
+                <h3 class="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">Other Skills</h3>
+                <div class="text-[10px] space-y-1">
+                    <p>• People & Leadership Management</p>
+                    <p>• Legal Analysis & Regulatory Review</p>
+                    <p>• Negotiation & Dispute Mediation</p>
+                    <p>• Public Speaking & Public Relations</p>
+                </div>
+            </div>
+
+            <!-- Education -->
+            <div>
+                <h3 class="text-gray-400 text-xs font-bold uppercase tracking-widest mb-3 border-b border-gray-700 pb-1">Education</h3>
+                <div class="space-y-3 text-xs">
+                    <div>
+                        <p class="font-bold text-white">ITTS Tangerang Selatan</p>
+                        <p class="text-gray-400">B.Sc. in Information Technology</p>
+                        <p class="text-blue-400">2022 — 2026 (Est.)</p>
+                    </div>
+                    <div>
+                        <p class="font-bold text-white">STT Malang</p>
+                        <p class="text-gray-400">Diploma in Information Technology</p>
+                        <p class="text-blue-400">Graduated 2013</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Early Days -->
+            <div>
+                <h3 class="text-gray-400 text-xs font-bold uppercase tracking-widest mb-2 border-b border-gray-700 pb-1">The Origin</h3>
+                <p class="text-[10px] text-gray-400 italic leading-snug">
+                    "2008-2009: Learning hardware from my grandfather. Biking 7KM at night for knowledge."
+                </p>
+            </div>
+        </aside>
+
+        <!-- Main -->
+        <main class="main">
+            <!-- Header -->
+            <header class="mb-8 border-b border-gray-200 pb-6">
+                <h1 class="text-3xl md:text-4xl font-bold text-slate-900 leading-tight font-heading uppercase tracking-tight">Muhamad<br><span class="text-blue-600">Tuhfatur Roziqin</span></h1>
+                <p class="text-base text-slate-500 font-medium mt-2 tracking-wide uppercase">System Engineer | Network Security | IT Consultant</p>
+            </header>
+
+            <!-- Profile Summary -->
+            <section class="mb-8">
+                <h2 class="text-xs font-bold text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2 border-b border-gray-100 pb-2">
+                    <i class="fas fa-user-circle text-blue-600"></i> Professional Profile
+                </h2>
+                <p class="text-xs md:text-sm text-slate-600 leading-relaxed text-justify">
+                    A multidisciplinary professional with deep technical expertise as a <strong>System Engineer</strong> at Jagoanhosting (managing CloudLinux/cPanel & Security) and strategic managerial experience as a <strong>Commissioner at Panwaslu</strong>. Unique track record combining large-scale system architecture (100k+ req/s), ISP network management, legal dispute resolution, and people management.
+                </p>
+            </section>
+
+            <!-- Experience Timeline -->
+            <section class="mb-8">
+                <h2 class="text-xs font-bold text-slate-900 uppercase tracking-widest mb-5 flex items-center gap-2 border-b border-gray-100 pb-2">
+                    <i class="fas fa-briefcase text-blue-600"></i> Work Experience
+                </h2>
+                
+                <div class="timeline">
+                    <!-- Job 1: SysAdmin (Current) -->
+                    <div class="timeline-item">
+                        <div class="flex justify-between items-baseline mb-1">
+                            <h3 class="font-bold text-slate-800 text-sm">System Administrator</h3>
+                            <span class="text-[10px] font-bold text-white bg-blue-600 px-2 py-0.5 rounded">2022 — Present</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 font-bold mb-2 uppercase tracking-wide">Jagoanhosting Indonesia</p>
+                        <ul class="list-disc ml-4 text-xs text-slate-600 compact-list">
+                            <li>Manage server clusters (Proxmox, Virtualizor, KVM, OpenVZ).</li>
+                            <li>Optimize <strong>CloudLinux + cPanel</strong> and perform deep troubleshooting.</li>
+                            <li>Proactive server security with <strong>Bitninja</strong> & Wazuh SIEM.</li>
+                            <li>Develop internal tools using <strong>PHP, JavaScript, Go, & C++</strong>.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 2: Upaznet -->
+                    <div class="timeline-item">
+                        <div class="flex justify-between items-baseline mb-1">
+                            <h3 class="font-bold text-slate-800 text-sm">Network Administrator</h3>
+                            <span class="text-[10px] font-bold text-slate-500 bg_gray-200 px-2 py-0.5 rounded">2021 — 2022</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 font-bold mb-2 uppercase tracking-wide">Upaznet Provider</p>
+                        <ul class="list-disc ml-4 text-xs text-slate-600 compact-list">
+                            <li>Designed ISP network topologies (Mikrotik & Cisco).</li>
+                            <li>Configured advanced routing (BGP, OSPF) and managed VLANs.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 3: Special Project -->
+                    <div class="timeline-item">
+                        <div class="flex justify-between items-baseline mb-1">
+                            <h3 class="font-bold text-slate-800 text-sm">Technical Lead (Real-Count Bot)</h3>
+                            <span class="text-[10px] font-bold text-slate-500 bg-yellow-100 text-yellow-700 px-2 py-0.5 rounded">Oct 2020 — Mar 2021</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 font-bold mb-2 uppercase tracking-wide">Bawaslu East Java (Ad-Hoc Project)</p>
+                        <ul class="list-disc ml-4 text-xs text-slate-600 compact-list">
+                            <li>Built a Telegram reporting system for <strong>48,600 Polling Station Supervisors</strong>.</li>
+                            <li>Handled <em>High Traffic Load</em> (>100k requests/sec) during vote counting.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 4: Commissioner -->
+                    <div class="timeline-item">
+                        <div class="flex justify-between items-baseline mb-1">
+                            <h3 class="font-bold text-slate-800 text-sm">Commissioner at Panwaslu</h3>
+                            <span class="text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded">2018 — 2021</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 font-bold mb-1 uppercase tracking-wide">Wonosari Subdistrict</p>
+                        <p class="text-[10px] text-slate-400 italic mb-2">Head of Legal, Disputes & Violation Handling</p>
+                        <ul class="list-disc ml-4 text-xs text-slate-600 compact-list">
+                            <li>Legal regulation analysis, dispute mediation, and enforcement.</li>
+                            <li>Managed polling-station personnel and public relations between institutions.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 5: Warnet -->
+                    <div class="timeline-item">
+                        <div class="flex justify-between items-baseline mb-1">
+                            <h3 class="font-bold text-slate-800 text-sm">Internet Cafe Specialist Technician</h3>
+                            <span class="text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded">2013 — 2018</span>
+                        </div>
+                        <p class="text-[10px] text-slate-500 font-bold mb-2 uppercase tracking-wide">7 Internet Cafes (Kab. Malang)</p>
+                        <ul class="list-disc ml-4 text-xs text-slate-600 compact-list">
+                            <li>Managed 7 branches concurrently.</li>
+                            <li>Implemented Diskless Topology (CyberIndo/CCBoot) & tuned gaming networks.</li>
+                        </ul>
+                    </div>
+
+                    <!-- Job 6 & 7 Combined for space efficiency -->
+                    <div class="timeline-item border-none pb-0">
+                        <div class="flex justify-between items-baseline mb-1">
+                            <h3 class="font-bold text-slate-800 text-sm">Early Career</h3>
+                            <span class="text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded">2011 — 2020</span>
+                        </div>
+                        <div class="text-xs text-slate-600 space-y-2 mt-2">
+                            <p><strong>Freelance IT Support (2011-2020):</strong> Technical solutions for government institutions, schools, and businesses.</p>
+                            <p><strong>IT Instructor (2011-2013):</strong> Taught at a private Madrasah Aliyah in Kab. Malang.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Org -->
+            <section>
+                <h2 class="text-xs font-bold text-slate-900 uppercase tracking-widest mb-3 flex items-center gap-2 border-b border-gray-100 pb-2">
+                    <i class="fas fa-users text-blue-600"></i> Organizational Experience
+                </h2>
+                <div class="grid grid-cols-2 gap-x-4 gap-y-3">
+                    
+                    <!-- GP Ansor Ranting -->
+                    <div class="bg-gray-50 p-2.5 rounded border-l-4 border-green-600">
+                        <p class="font-bold text-[10px] text-slate-800">Secretary, GP Ansor Branch Kacangan</p>
+                        <p class="text-[10px] text-slate-500 mb-1">2 Terms: 2022 — 2025 & 2025 — 2027</p>
+                        <p class="text-[9px] text-slate-400 leading-tight">Administration, correspondence, & documentation at branch level.</p>
+                    </div>
+
+                    <!-- MWC NU -->
+                    <div class="bg-gray-50 p-2.5 rounded border-l-4 border-green-700">
+                        <p class="font-bold text-[10px] text-slate-800">Deputy Secretary, MWC NU Wonosari</p>
+                        <p class="text-[10px] text-slate-500 mb-1">2020 — 2025</p>
+                        <p class="text-[9px] text-slate-400 leading-tight">Active in Nahdlatul Ulama local chapter management.</p>
+                    </div>
+
+                    <!-- GP Ansor Kecamatan (Combined) -->
+                    <div class="bg-gray-50 p-2.5 rounded border-l-4 border-green-500">
+                        <p class="font-bold text-[10px] text-slate-800">GP Ansor Kec. Wonosari</p>
+                        <ul class="text-[9px] text-slate-500 list-disc ml-3 mt-1 space-y-0.5">
+                            <li><strong>Deputy Secretary:</strong> 2019 — 2022</li>
+                            <li><strong>Deputy Chair:</strong> 2017 — 2019</li>
+                        </ul>
+                    </div>
+
+                    <!-- Koperasi -->
+                    <div class="bg-gray-50 p-2.5 rounded border-l-4 border-blue-500">
+                        <p class="font-bold text-[10px] text-slate-800">Secretary, Wonosari Cooperative</p>
+                        <p class="text-[10px] text-slate-500 mb-1">2011 — 2018</p>
+                        <p class="text-[9px] text-slate-400 leading-tight">Responsible for administration & governance systems.</p>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <script src="assets/js/resume.js"></script>
+</body>
+</html>
