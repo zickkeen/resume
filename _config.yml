@@ -1,0 +1,10 @@
+title: Muhamad Tuhfatur Roziqin Portfolio
+description: Portfolio & Resume bilingual (ID/EN)
+baseurl: ""
+url: ""
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: null

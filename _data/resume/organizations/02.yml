@@ -1,0 +1,12 @@
+order: 2
+card_class: bg-gray-50 p-2.5 rounded border-l-4 border-green-500
+title:
+  id: GP Ansor Kec. Wonosari
+  en: GP Ansor Kec. Wonosari
+list:
+  id:
+  - <strong>Wakil Sekretaris:</strong> 2019 — 2022
+  - <strong>Wakil Ketua:</strong> 2017 — 2019
+  en:
+  - <strong>Deputy Secretary:</strong> 2019 — 2022
+  - <strong>Deputy Chair:</strong> 2017 — 2019

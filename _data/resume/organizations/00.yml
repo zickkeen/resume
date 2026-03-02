@@ -1,0 +1,11 @@
+order: 0
+card_class: bg-gray-50 p-2.5 rounded border-l-4 border-green-600
+title:
+  id: Sekretaris GP Ansor Ranting Kacangan
+  en: Secretary, GP Ansor Branch Kacangan
+period:
+  id: '2 Periode: 2022 — 2025 & 2025 — 2027'
+  en: '2 Terms: 2022 — 2025 & 2025 — 2027'
+description:
+  id: Administrasi, surat-menyurat, & dokumentasi organisasi tingkat ranting.
+  en: Administration, correspondence, & documentation at branch level.
