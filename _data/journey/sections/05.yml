@@ -1,0 +1,150 @@
+order: 5
+title:
+    id: KOMISIONER
+    en: THE COMMISSIONER
+id: |
+    <!-- SECTION 5: THE COMMISSIONER (PANWASLU) -->
+            <section class="section" id="section-5">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <!-- Glow Red for Bawaslu Theme -->
+                <div class="glow-blob" style="top: 15%; right: 15%; background: radial-gradient(circle, rgba(239, 68, 68, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+                    <!-- Left: Text Description -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-red-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5: THE COMMISSIONER</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-red-50">Hukum & Diplomasi</h2>
+    
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            Sebuah fase transformasi manajerial. Sebagai <strong>Komisioner Panwaslu</strong> dengan amanah sebagai <strong>Kordiv Hukum, Sengketa dan Penanganan Pelanggaran</strong>, saya tidak hanya bergelut dengan pasal-pasal, tetapi juga seni komunikasi tingkat tinggi.
+                        </p>
+    
+                        <div class="space-y-4 text-slate-300">
+                            <p class="leading-relaxed text-sm">
+                                Tantangan utamanya adalah menerjemahkan bahasa hukum yang kaku menjadi bahasa <strong>Humas</strong> yang mudah diterima masyarakat, serta melakukan <strong>Negosiasi</strong> dan mediasi dalam penyelesaian sengketa antar peserta pemilu.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mt-4">
+                                 <!-- Hard Skills (Legal) -->
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Legal Drafting</span>
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Penyelesaian Sengketa</span>
+    
+                                 <!-- Soft Skills (Communication) -->
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Public Speaking</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Negosiasi & Mediasi</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Manajemen Relasi</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right: Visual Cards (Focus on Role) -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-r-4 border-red-600 relative">
+                            <div class="flex items-center gap-6 mb-6">
+                                <div class="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center text-red-500 text-3xl">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Komisioner Panwaslu</h3>
+                                    <p class="text-sm text-red-300 font-mono uppercase tracking-wider">Kec. Wonosari (2018-2021)</p>
+                                </div>
+                            </div>
+    
+                            <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
+                                <ul class="space-y-4 text-sm text-slate-300">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-book-section text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Hukum:</strong> Analisis regulasi dan produk hukum kepemiluan.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-handshake text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Sengketa:</strong> Mediasi konflik dan penyelesaian sengketa proses.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-exclamation-triangle text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Penanganan Pelanggaran:</strong> Investigasi dan penindakan temuan/laporan.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-bullhorn text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Humas & Relasi:</strong> Sosialisasi regulasi dan kerjasama antar lembaga.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 5: THE COMMISSIONER (PANWASLU) -->
+            <section class="section" id="section-5">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <!-- Glow Red for Bawaslu Theme -->
+                <div class="glow-blob" style="top: 15%; right: 15%; background: radial-gradient(circle, rgba(239, 68, 68, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+                    <!-- Left: Text Description -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-red-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5: THE COMMISSIONER</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-red-50">Law & Diplomacy</h2>
+    
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            A phase of managerial transformation. As a <strong>Commissioner at Panwaslu</strong> serving as <strong>Head of Legal, Disputes & Violation Handling</strong>, I dealt not only with legal texts but also the high-art of communication.
+                        </p>
+    
+                        <div class="space-y-4 text-slate-300">
+                            <p class="leading-relaxed text-sm">
+                                The main challenge was translating rigid legal language into public-facing communication, while conducting negotiations and mediations to resolve election-related disputes.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mt-4">
+                                 <!-- Hard Skills (Legal) -->
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Legal Drafting</span>
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Dispute Resolution</span>
+    
+                                 <!-- Soft Skills (Communication) -->
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Public Speaking</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Negotiation & Mediation</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Relationship Management</span>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right: Visual Cards (Focus on Role) -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-r-4 border-red-600 relative">
+                            <div class="flex items-center gap-6 mb-6">
+                                <div class="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center text-red-500 text-3xl">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Commissioner at Panwaslu</h3>
+                                    <p class="text-sm text-red-300 font-mono uppercase tracking-wider">Kec. Wonosari (2018-2021)</p>
+                                </div>
+                            </div>
+    
+                            <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
+                                <ul class="space-y-4 text-sm text-slate-300">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-book-section text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Law:</strong> Regulatory analysis and election-related legal products.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-handshake text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Disputes:</strong> Conflict mediation and process dispute resolution.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-exclamation-triangle text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Violation Handling:</strong> Investigation and enforcement of reports/findings.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-bullhorn text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Public Relations:</strong> Regulation socialization and inter-agency cooperation.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>

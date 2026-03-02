@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'id' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Muhamad Tuhfatur Roziqin (Print Version)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
+</head>
+<body>
+    {% assign is_id = false %}
+    {% if page.lang == 'id' %}
+        {% assign is_id = true %}
+    {% endif %}
+
+    <div class="no-print fixed bottom-8 right-8 z-50">
+        <button onclick="window.print()" class="bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700 transition-all flex items-center gap-2 px-4 py-3" title="{% if is_id %}Cetak PDF{% else %}Save PDF{% endif %}">
+            <i class="fas fa-print text-xl"></i> {% if is_id %}Simpan PDF{% else %}Save PDF{% endif %}
+        </button>
+    </div>
+
+    <div class="no-print fixed top-4 right-4 z-50 flex gap-2">
+        <a href="#" onclick="switchResumeLang('{{ '/id/resume/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full {% if is_id %}bg-white text-slate-900 font-semibold{% else %}bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition{% endif %}">ID</a>
+        <a href="#" onclick="switchResumeLang('{{ '/en/resume/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full {% unless is_id %}bg-white text-slate-900 font-semibold{% else %}bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition{% endunless %}">EN</a>
+    </div>
+
+    {% if is_id %}
+        {% include resume/content-id.html %}
+    {% else %}
+        {% include resume/content-en.html %}
+    {% endif %}
+
+    <script src="{{ '/assets/js/resume.js' | relative_url }}"></script>
+</body>
+</html>

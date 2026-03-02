@@ -1,0 +1,19 @@
+order: 2
+title:
+  id: Technical Lead (Bot Real-Count)
+  en: Technical Lead (Real-Count Bot)
+period:
+  id: Okt 2020 — Mar 2021
+  en: Oct 2020 — Mar 2021
+badge_class: text-[10px] font-bold text-slate-500 bg-yellow-100 text-yellow-700 px-2
+  py-0.5 rounded
+company:
+  id: Bawaslu Jawa Timur (Ad-Hoc Project)
+  en: Bawaslu East Java (Ad-Hoc Project)
+bullets:
+  id:
+  - Membangun sistem pelaporan Telegram Bot untuk <strong>48.600 Pengawas TPS</strong>.
+  - Menangani <em>High Traffic Load</em> (>100k requests/detik) saat perhitungan suara.
+  en:
+  - Built a Telegram reporting system for <strong>48,600 Polling Station Supervisors</strong>.
+  - Handled <em>High Traffic Load</em> (>100k requests/sec) during vote counting.

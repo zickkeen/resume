@@ -1,0 +1,172 @@
+order: 9
+title:
+    id: KONTAK
+    en: CONTACT
+id: |
+    <!-- SECTION 9: CONTACT & SKILLS -->
+            <section class="section" id="section-9">
+                <div class="bg-grid"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 pb-20 md:pb-0">
+                    <!-- Skill Cloud -->
+                    <div data-aos="fade-up-right">
+                        <h2 class="text-3xl font-heading font-bold mb-6">Tech Arsenal</h2>
+                        <div class="flex flex-wrap gap-3 content-start">
+    
+                            <!-- SysAdmin & Virtualization (Blue) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="System Administration">Linux Server</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Virtualization">Proxmox VE</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Virtualization">Virtualizor</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Containerization">Docker</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Storage">Ceph</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Virtualization">KVM/OpenVZ</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Web Panel">cPanel/WHM</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Web Panel">CyberPanel</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="CDN & DNS">Cloudflare</span>
+    
+                            <!-- Network (Orange) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-orange-300 font-mono text-xs border-orange-500/30" title="Network Device">Mikrotik</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-orange-300 font-mono text-xs border-orange-500/30" title="Network Device">Cisco</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-orange-300 font-mono text-xs border-orange-500/30" title="Routing Protocol">BGP & OSPF</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Network Mgmt">VLAN Mgmt</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Network Mgmt">POP Mgmt</span>
+    
+                            <!-- Security (Green/Red) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-green-300 font-mono text-xs border-green-500/30" title="SIEM">Wazuh</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-green-300 font-mono text-xs border-green-500/30" title="Security Suite">Imunify360</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Security Suite">Bitninja</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-red-300 font-mono text-xs border-red-500/30" title="Security Action">Penetration Test</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-red-300 font-mono text-xs border-red-500/30" title="Security Action">Incident Response</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Audit">System Audit</span>
+    
+                            <!-- Dev & IoT (Purple/Yellow) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-purple-300 font-mono text-xs border-purple-500/30" title="Scripting">Python</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-purple-300 font-mono text-xs border-purple-500/30" title="Scripting">Bash Script</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Programming">C/C++</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Programming">Go</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Backend">PHP/Laravel</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Backend">Node.js</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-yellow-300 font-mono text-xs border-yellow-500/30" title="IoT">ESP32 & Arduino</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Tools">Git/Gogs</span>
+    
+                        </div>
+    
+                        <div class="mt-8 p-6 glass-card rounded-xl">
+                            <h3 class="font-bold mb-2 text-white">Minat Pribadi</h3>
+                            <p class="text-slate-400 text-sm">
+                                <i class="fas fa-heart text-red-500 mr-2"></i> Self-Hosting & HomeLab<br>
+                                <i class="fas fa-microchip text-blue-500 mr-2"></i> IoT Development<br>
+                                <i class="fas fa-users text-yellow-500 mr-2"></i> Aktif Organisasi Sosial Masyarakat
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- Contact CTA -->
+                    <div class="flex flex-col justify-center items-start md:items-end text-left md:text-right" data-aos="fade-up-left">
+                        <h2 class="text-5xl font-heading font-bold mb-6 text-white">Let's Connect</h2>
+                        <p class="text-slate-400 mb-8 max-w-md">
+                            Saya selalu terbuka untuk diskusi tentang infrastruktur server, keamanan siber, atau kolaborasi proyek IT.
+                        </p>
+    
+                        <a href="mailto:me@fatur.my.id" class="text-2xl hover:text-blue-400 transition-colors mb-2">
+                            me@fatur.my.id <i class="fas fa-envelope ml-2"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/zickkeen" class="text-xl text-slate-500 hover:text-blue-400 transition-colors mb-2">
+                            linkedin.com/in/zickkeen <i class="fab fa-linkedin ml-2"></i>
+                        </a>
+                        <a href="https://fatur.my.id" class="text-xl text-slate-500 hover:text-blue-400 transition-colors">
+                            fatur.my.id <i class="fas fa-globe ml-2"></i>
+                        </a>
+    
+                        <div class="mt-12">
+                            <a href="/id/resume/" target="_blank" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                                <i class="fas fa-file-pdf mr-2"></i> Download Resume PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 9: CONTACT & SKILLS -->
+            <section class="section" id="section-9">
+                <div class="bg-grid"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 pb-20 md:pb-0">
+                    <!-- Skill Cloud -->
+                    <div data-aos="fade-up-right">
+                        <h2 class="text-3xl font-heading font-bold mb-6">Tech Arsenal</h2>
+                        <div class="flex flex-wrap gap-3 content-start">
+    
+                            <!-- SysAdmin & Virtualization (Blue) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="System Administration">Linux Server</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Virtualization">Proxmox VE</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Virtualization">Virtualizor</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Containerization">Docker</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Storage">Ceph</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Virtualization">KVM/OpenVZ</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-blue-300 font-mono text-xs border-blue-500/30" title="Web Panel">cPanel/WHM</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Web Panel">CyberPanel</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="CDN & DNS">Cloudflare</span>
+    
+                            <!-- Network (Orange) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-orange-300 font-mono text-xs border-orange-500/30" title="Network Device">Mikrotik</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-orange-300 font-mono text-xs border-orange-500/30" title="Network Device">Cisco</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-orange-300 font-mono text-xs border-orange-500/30" title="Routing Protocol">BGP & OSPF</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Network Mgmt">VLAN Mgmt</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Network Mgmt">POP Mgmt</span>
+    
+                            <!-- Security (Green/Red) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-green-300 font-mono text-xs border-green-500/30" title="SIEM">Wazuh</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-green-300 font-mono text-xs border-green-500/30" title="Security Suite">Imunify360</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Security Suite">Bitninja</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-red-300 font-mono text-xs border-red-500/30" title="Security Action">Penetration Test</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-red-300 font-mono text-xs border-red-500/30" title="Security Action">Incident Response</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Audit">System Audit</span>
+    
+                            <!-- Dev & IoT (Purple/Yellow) -->
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-purple-300 font-mono text-xs border-purple-500/30" title="Scripting">Python</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-purple-300 font-mono text-xs border-purple-500/30" title="Scripting">Bash Script</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Programming">C/C++</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Programming">Go</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Backend">PHP/Laravel</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Backend">Node.js</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-yellow-300 font-mono text-xs border-yellow-500/30" title="IoT">ESP32 & Arduino</span>
+                            <span class="px-3 py-1.5 glass-card rounded-lg text-slate-400 font-mono text-xs" title="Tools">Git/Gogs</span>
+    
+                        </div>
+    
+                        <div class="mt-8 p-6 glass-card rounded-xl">
+                            <h3 class="font-bold mb-2 text-white">Personal Interests</h3>
+                            <p class="text-slate-400 text-sm">
+                                <i class="fas fa-heart text-red-500 mr-2"></i> Self-Hosting & HomeLab<br>
+                                <i class="fas fa-microchip text-blue-500 mr-2"></i> IoT Development<br>
+                                <i class="fas fa-users text-yellow-500 mr-2"></i> Active in Community Organizations
+                            </p>
+                        </div>
+                    </div>
+    
+                    <!-- Contact CTA -->
+                    <div class="flex flex-col justify-center items-start md:items-end text-left md:text-right" data-aos="fade-up-left">
+                        <h2 class="text-5xl font-heading font-bold mb-6 text-white">Let's Connect</h2>
+                        <p class="text-slate-400 mb-8 max-w-md">
+                            I'm open to discussions about server infrastructure, cybersecurity, or IT collaborations.
+                        </p>
+    
+                        <a href="mailto:me@fatur.my.id" class="text-2xl hover:text-blue-400 transition-colors mb-2">
+                            me@fatur.my.id <i class="fas fa-envelope ml-2"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/zickkeen" class="text-xl text-slate-500 hover:text-blue-400 transition-colors mb-2">
+                            linkedin.com/in/zickkeen <i class="fab fa-linkedin ml-2"></i>
+                        </a>
+                        <a href="https://fatur.my.id" class="text-xl text-slate-500 hover:text-blue-400 transition-colors">
+                            fatur.my.id <i class="fas fa-globe ml-2"></i>
+                        </a>
+    
+                        <div class="mt-12">
+                            <a href="/en/resume/" target="_blank" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                                <i class="fas fa-file-pdf mr-2"></i> Download Resume PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
