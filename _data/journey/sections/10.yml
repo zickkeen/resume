@@ -1,0 +1,5 @@
+order: 10
+title:
+    id: KONTAK
+    en: CONTACT
+include: journey/contact-section.html

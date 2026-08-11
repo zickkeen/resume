@@ -1,0 +1,43 @@
+{% assign locale = page.lang | default: 'id' %}
+<section class="section" id="section-10">
+    <div class="bg-grid"></div>
+
+    <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 pb-20 md:pb-0">
+        <!-- Skill Cloud (from _data/skills) -->
+        {% include journey/skills-cloud.html %}
+
+        <!-- Contact CTA -->
+        <div class="flex flex-col justify-center items-start md:items-end text-left md:text-right" data-aos="fade-up-left">
+            <h2 class="text-5xl font-heading font-bold mb-6 text-white">Let's Connect</h2>
+            <p class="text-slate-400 mb-8 max-w-md">
+                {% if locale == 'id' %}
+                Saya selalu terbuka untuk diskusi tentang infrastruktur server, keamanan siber, atau kolaborasi proyek IT.
+                {% else %}
+                I'm open to discussions about server infrastructure, cybersecurity, or IT collaborations.
+                {% endif %}
+            </p>
+
+            <a href="mailto:me@fatur.my.id" class="text-2xl hover:text-blue-400 transition-colors mb-2">
+                me@fatur.my.id <i class="fas fa-envelope ml-2"></i>
+            </a>
+            <a href="https://linkedin.com/in/zickkeen" class="text-xl text-slate-500 hover:text-blue-400 transition-colors mb-2">
+                linkedin.com/in/zickkeen <i class="fab fa-linkedin ml-2"></i>
+            </a>
+            <a href="https://fatur.my.id" class="text-xl text-slate-500 hover:text-blue-400 transition-colors">
+                fatur.my.id <i class="fas fa-globe ml-2"></i>
+            </a>
+
+            <div class="mt-12">
+                {% if locale == 'id' %}
+                <a href="{{ '/id/resume/' | relative_url }}" target="_blank" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                    <i class="fas fa-file-pdf mr-2"></i> Download Resume PDF
+                </a>
+                {% else %}
+                <a href="{{ '/en/resume/' | relative_url }}" target="_blank" class="px-8 py-4 bg-white text-slate-900 font-bold rounded-full hover:bg-slate-200 transition-all shadow-[0_0_20px_rgba(255,255,255,0.3)]">
+                    <i class="fas fa-file-pdf mr-2"></i> Download Resume PDF
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

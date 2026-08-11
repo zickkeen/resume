@@ -4,6 +4,10 @@
     {% assign section_pairs = site.data.journey.sections | sort %}
     {% for pair in section_pairs %}
         {% assign section = pair[1] %}
-        {{ section[locale] }}
+        {% if section.include %}
+            {% include {{ section.include }} %}
+        {% else %}
+            {{ section[locale] }}
+        {% endif %}
     {% endfor %}
 </main>

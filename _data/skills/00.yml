@@ -1,0 +1,28 @@
+name:
+  id: SysAdmin & Cloud
+  en: SysAdmin & Cloud
+tags:
+  - label: Linux Server
+    title: System Administration
+    class: border-blue-500/30 text-blue-300
+  - label: Proxmox VE
+    title: Virtualization
+    class: border-blue-500/30 text-blue-300
+  - label: Virtualizor
+    title: Virtualization
+    class: border-blue-500/30 text-blue-300
+  - label: Docker
+    title: Containerization
+    class: border-blue-500/30 text-blue-300
+  - label: cPanel/WHM
+    title: Web Panel
+    class: border-blue-500/30 text-blue-300
+  - label: Cloudflare
+    title: CDN & DNS
+    class: text-slate-400
+  - label: Ceph
+    title: Storage
+    class: text-slate-400
+  - label: KVM/OpenVZ
+    title: Virtualization
+    class: text-slate-400
