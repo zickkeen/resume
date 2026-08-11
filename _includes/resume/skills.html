@@ -1,0 +1,11 @@
+{% assign locale = page.lang | default: 'id' %}
+{% assign skills = site.data.skills | sort %}
+{% for pair in skills %}
+{% assign cat = pair[1] %}
+<div class="mb-3">
+    <p class="text-[10px] text-blue-400 font-bold mb-1 uppercase">{{ cat.name[locale] }}</p>
+    <div>
+        {% for tag in cat.tags %}<span class="skill-tag">{{ tag.label }}</span>{% endfor %}
+    </div>
+</div>
+{% endfor %}

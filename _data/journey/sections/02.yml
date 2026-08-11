@@ -1,0 +1,86 @@
+order: 2
+title:
+    id: PENDIDIK
+    en: THE EDUCATOR
+id: |
+    <!-- SECTION 2: THE EDUCATOR (2011-2013) -->
+            <section class="section" id="section-2">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <!-- Teal Glow for Education -->
+                <div class="glow-blob" style="top: 20%; left: 20%; background: radial-gradient(circle, rgba(20, 184, 166, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+                    <!-- Left: Text -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-teal-400 font-mono text-sm tracking-widest mb-2 block">EPISODE 2: THE EDUCATOR</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-teal-50">Guru Teknologi</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            Sebelum terjun penuh ke industri, saya mendedikasikan diri sebagai <strong>Pendidik</strong>. Mengajarkan teknologi kepada siswa di Madrasah Aliyah memberikan fondasi komunikasi yang kuat—kemampuan untuk menjelaskan hal rumit menjadi sederhana.
+                        </p>
+                        <div class="text-sm text-slate-500 italic border-l-2 border-teal-500 pl-4">
+                            "The best way to learn is to teach."
+                        </div>
+                    </div>
+    
+                    <!-- Right: Visual -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-teal-500 relative">
+                            <i class="fas fa-chalkboard-teacher text-5xl text-teal-400 mb-6 block"></i>
+                            <h3 class="text-2xl font-heading font-bold mb-2 text-white">Guru TIK</h3>
+                            <p class="text-slate-400 text-sm mb-4">
+                                Madrasah Aliyah Swasta, Kab. Malang<br>
+                                <span class="text-teal-400 font-mono text-xs">2011 — 2013</span>
+                            </p>
+    
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                 <div class="px-3 py-1 rounded bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs">Mentoring</div>
+                                 <div class="px-3 py-1 rounded bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs">Public Speaking</div>
+                                 <div class="px-3 py-1 rounded bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs">Basic IT Curriculum</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 2: THE EDUCATOR (2011-2013) -->
+            <section class="section" id="section-2">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <!-- Teal Glow for Education -->
+                <div class="glow-blob" style="top: 20%; left: 20%; background: radial-gradient(circle, rgba(20, 184, 166, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+                    <!-- Left: Text -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-teal-400 font-mono text-sm tracking-widest mb-2 block">EPISODE 2: THE EDUCATOR</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-teal-50">Technology Teacher</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            Before diving fully into industry, I dedicated myself to teaching. Explaining complex topics simply to students at a Madrasah Aliyah strengthened my communication skills.
+                        </p>
+                        <div class="text-sm text-slate-500 italic border-l-2 border-teal-500 pl-4">
+                            "The best way to learn is to teach."
+                        </div>
+                    </div>
+    
+                    <!-- Right: Visual -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-teal-500 relative">
+                            <i class="fas fa-chalkboard-teacher text-5xl text-teal-400 mb-6 block"></i>
+                            <h3 class="text-2xl font-heading font-bold mb-2 text-white">IT Teacher</h3>
+                            <p class="text-slate-400 text-sm mb-4">
+                                Private Madrasah Aliyah, Kab. Malang<br>
+                                <span class="text-teal-400 font-mono text-xs">2011 — 2013</span>
+                            </p>
+    
+                            <div class="flex flex-wrap gap-2 mt-4">
+                                 <div class="px-3 py-1 rounded bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs">Mentoring</div>
+                                 <div class="px-3 py-1 rounded bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs">Public Speaking</div>
+                                 <div class="px-3 py-1 rounded bg-teal-500/10 border border-teal-500/30 text-teal-300 text-xs">Basic IT Curriculum</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>

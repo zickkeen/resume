@@ -1,0 +1,24 @@
+order: 5
+title:
+  id: Sekretaris & Administrator Data
+  en: Secretary & Data Administrator
+period:
+  id: 2011 — 2018
+  en: 2011 — 2018
+badge_class: text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded
+company:
+  id: Koperasi Wahidiyah Kec. Wonosari
+  en: Wahidiyah Cooperative, Wonosari District
+bullets:
+  id:
+  - Administrasi kesekretariatan & pengelolaan dokumen koperasi.
+  - Pendataan anggota, simpanan, dan transaksi menggunakan <strong>Microsoft Excel</strong>.
+  - <strong>Excel Expert</strong>: penyusunan laporan, formula, dan analisis data.
+  - <strong>Data Analyst</strong>: analisis data simpanan, kredit, & keanggotaan untuk pengambilan keputusan.
+  - <strong>ERP & Odoo (Basic)</strong>: memahami alur modul akuntansi, inventori & pelaporan.
+  en:
+  - Handled secretarial administration & cooperative documentation.
+  - Maintained member, savings, and transaction records with <strong>Microsoft Excel</strong>.
+  - <strong>Excel Expert</strong>: professional reporting, formulas, and data analysis.
+  - <strong>Data Analyst</strong>: analyzed savings, credit, & membership data to support decision-making.
+  - <strong>ERP & Odoo (Basic)</strong>: familiar with accounting, inventory & reporting workflows.

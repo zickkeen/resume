@@ -1,0 +1,18 @@
+order: 1
+title:
+  id: Network Administrator
+  en: Network Administrator
+period:
+  id: 2021 — 2022
+  en: 2021 — 2022
+badge_class: text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded
+company:
+  id: Upaznet Provider
+  en: Upaznet Provider
+bullets:
+  id:
+  - Desain topologi jaringan ISP (Mikrotik & Cisco).
+  - Konfigurasi routing tingkat lanjut (BGP, OSPF) dan manajemen VLAN.
+  en:
+  - Designed ISP network topologies (Mikrotik & Cisco).
+  - Configured advanced routing (BGP, OSPF) and managed VLANs.

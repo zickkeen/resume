@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'id' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journey - Muhamad Tuhfatur Roziqin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}">
+</head>
+<body>
+    {% assign is_id = false %}
+    {% if page.lang == 'id' %}
+        {% assign is_id = true %}
+    {% endif %}
+    {% assign locale = 'en' %}
+    {% if is_id %}
+        {% assign locale = 'id' %}
+    {% endif %}
+    {% assign section_pairs = site.data.journey.sections | sort %}
+
+    <div class="no-print fixed top-4 right-4 z-50 flex gap-2">
+        <a href="#" onclick="switchLang('{{ '/id/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full {% if is_id %}bg-white text-slate-900 font-semibold{% else %}bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition{% endif %}">ID</a>
+        <a href="#" onclick="switchLang('{{ '/en/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full {% unless is_id %}bg-white text-slate-900 font-semibold{% else %}bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition{% endunless %}">EN</a>
+    </div>
+
+    <div class="nav-dots">
+        {% for pair in section_pairs %}
+        {% assign section = pair[1] %}
+        <div class="dot{% if forloop.first %} active{% endif %}" onclick="scrollToSection({{ section.order }})" title="{{ section.title[locale] }}"></div>
+        {% endfor %}
+    </div>
+
+    {% include journey/content-dynamic.html %}
+
+    <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+</body>
+</html>

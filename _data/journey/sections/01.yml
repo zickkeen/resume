@@ -1,0 +1,76 @@
+order: 1
+title:
+    id: ASAL MULA
+    en: THE ORIGIN
+id: |
+    <!-- SECTION 1: THE ORIGIN (2008-2009) -->
+            <section class="section" id="section-1">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <div class="glow-blob" style="bottom: 20%; left: 10%; background: radial-gradient(circle, rgba(249, 115, 22, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Left: Visual -->
+                    <div class="order-2 md:order-1" data-aos="fade-right">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-orange-500 relative">
+                            <div class="absolute -top-6 -right-6 w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg border-4 border-[#020617]">
+                                '08
+                            </div>
+                            <i class="fas fa-bicycle text-5xl text-orange-400 mb-6"></i>
+                            <h3 class="text-2xl font-heading font-bold mb-4 text-white">Perjuangan 7 KM</h3>
+                            <p class="text-slate-300 text-base leading-relaxed mb-4">
+                                "Setiap habis Maghrib, saya mengayuh sepeda (pancal) sejauh 7 KM menuju tempat <strong>Eyang Blangkon</strong>. Pembelajaran baru dimulai <strong>jam 9 malam</strong> hingga larut tak menentu. Saya sering menginap di sana dan baru mengayuh sepeda pulang ke rumah pagi harinya setelah Subuh."
+                            </p>
+                            <div class="text-xs font-mono text-orange-300">
+                                > STATUS: STARTING GAME<br>
+                                > MISSION: HARDWARE MASTERY
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right: Text -->
+                    <div class="order-1 md:order-2 text-left md:text-right" data-aos="fade-left">
+                        <span class="text-orange-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 1: THE ORIGIN</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-orange-50">Tekad Baja</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed">
+                            Karir ini tidak dimulai dengan kemudahan, tapi dengan keringat dan dedikasi. Perjalanan malam bersepeda itu mengajarkan saya bahwa <strong>tidak ada jalan pintas</strong> untuk menguasai teknologi.
+                        </p>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 1: THE ORIGIN (2008-2009) -->
+            <section class="section" id="section-1">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <div class="glow-blob" style="bottom: 20%; left: 10%; background: radial-gradient(circle, rgba(249, 115, 22, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                    <!-- Left: Visual -->
+                    <div class="order-2 md:order-1" data-aos="fade-right">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-orange-500 relative">
+                            <div class="absolute -top-6 -right-6 w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center text-white font-bold text-xl shadow-lg border-4 border-[#020617]">
+                                '08
+                            </div>
+                            <i class="fas fa-bicycle text-5xl text-orange-400 mb-6"></i>
+                            <h3 class="text-2xl font-heading font-bold mb-4 text-white">7 KM Struggle</h3>
+                            <p class="text-slate-300 text-base leading-relaxed mb-4">
+                                "Every night after Maghrib I biked 7 KM to learn from my grandfather. Lessons started at 9 PM and often continued until dawn. Sometimes I slept there and rode back after Subuh."
+                            </p>
+                            <div class="text-xs font-mono text-orange-300">
+                                &gt; STATUS: STARTING GAME<br>
+                                &gt; MISSION: HARDWARE MASTERY
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right: Text -->
+                    <div class="order-1 md:order-2 text-left md:text-right" data-aos="fade-left">
+                        <span class="text-orange-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 1: THE ORIGIN</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-orange-50">Iron Will</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed">
+                            This career didn't start with ease but with sweat and dedication. Those nightly rides taught me there are no shortcuts to mastering technology.
+                        </p>
+                    </div>
+                </div>
+            </section>

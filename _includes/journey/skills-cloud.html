@@ -1,0 +1,22 @@
+{% assign locale = page.lang | default: 'id' %}
+<div data-aos="fade-up-right">
+    <h2 class="text-3xl font-heading font-bold mb-6">Tech Arsenal</h2>
+    <div class="flex flex-wrap gap-3 content-start">
+        {% assign skills = site.data.skills | sort %}
+        {% for pair in skills %}
+        {% assign cat = pair[1] %}
+        {% for tag in cat.tags %}
+        <span class="px-3 py-1.5 glass-card rounded-lg font-mono text-xs {{ tag.class }}" title="{{ tag.title }}">{{ tag.label }}</span>
+        {% endfor %}
+        {% endfor %}
+    </div>
+
+    <div class="mt-8 p-6 glass-card rounded-xl">
+        <h3 class="font-bold mb-2 text-white">{% if locale == 'id' %}Minat Pribadi{% else %}Personal Interests{% endif %}</h3>
+        <p class="text-slate-400 text-sm">
+            <i class="fas fa-heart text-red-500 mr-2"></i> Self-Hosting & HomeLab<br>
+            <i class="fas fa-microchip text-blue-500 mr-2"></i> IoT Development<br>
+            <i class="fas fa-users text-yellow-500 mr-2"></i> {% if locale == 'id' %}Aktif Organisasi Sosial Masyarakat{% else %}Active in Community Organizations{% endif %}
+        </p>
+    </div>
+</div>

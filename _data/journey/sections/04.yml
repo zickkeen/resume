@@ -1,0 +1,102 @@
+order: 4
+title:
+    id: SPESIALIS WARNET
+    en: WARNET SPECIALIST
+id: |
+    <!-- SECTION 4: WARNET SPECIALIST (2013-2018) -->
+            <section class="section" id="section-4">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <div class="glow-blob" style="bottom: 30%; left: 30%; background: radial-gradient(circle, rgba(6, 182, 212, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                     <!-- Left: Visual -->
+                     <div class="order-2 md:order-1" data-aos="zoom-in-up">
+                        <div class="glass-card p-8 rounded-2xl border-t-4 border-cyan-500 text-center">
+                            <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-cyan-900/50 mb-6 shadow-[0_0_20px_rgba(6,182,212,0.4)]">
+                                <i class="fas fa-network-wired text-4xl text-cyan-400"></i>
+                            </div>
+                            <h3 class="text-3xl font-heading font-bold mb-2 text-white">7 Warnet</h3>
+                            <p class="text-cyan-400 text-sm mb-2 font-mono">MANAGED SIMULTANEOUSLY</p>
+    
+                            <!-- Added Era Badge -->
+                            <div class="inline-block px-4 py-1 rounded-full bg-cyan-950/50 border border-cyan-500/30 text-cyan-200 text-xs font-mono mb-6">
+                                Era 2013 — 2018
+                            </div>
+    
+                            <div class="grid grid-cols-1 gap-3 text-left">
+                                <div class="p-3 bg-white/5 rounded flex items-center gap-3">
+                                    <i class="fas fa-hdd text-cyan-500"></i>
+                                    <span class="text-sm text-slate-300">Diskless Topology (CyberIndo/CCBoot)</span>
+                                </div>
+                                <div class="p-3 bg-white/5 rounded flex items-center gap-3">
+                                    <i class="fas fa-tachometer-alt text-cyan-500"></i>
+                                    <span class="text-sm text-slate-300">Gaming & Network Tuning</span>
+                                </div>
+                                <div class="p-3 bg-white/5 rounded flex items-center gap-3">
+                                    <i class="fas fa-ethernet text-cyan-500"></i>
+                                    <span class="text-sm text-slate-300">Advanced Cabling Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right: Text -->
+                    <div class="order-1 md:order-2 text-left md:text-right" data-aos="fade-left">
+                        <span class="text-cyan-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 4: THE SPECIALIST</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-cyan-50">Raja Warnet</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed">
+                            Di era kejayaan warnet (2013-2018), downtime adalah kerugian. Saya dipercaya mengelola teknis <strong>7 Warnet sekaligus</strong> di Kabupaten Malang. Ini adalah kawah candradimuka saya dalam manajemen jaringan dan troubleshooting cepat.
+                        </p>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 4: WARNET SPECIALIST (2013-2018) -->
+            <section class="section" id="section-4">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <div class="glow-blob" style="bottom: 30%; left: 30%; background: radial-gradient(circle, rgba(6, 182, 212, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                     <!-- Left: Visual -->
+                     <div class="order-2 md:order-1" data-aos="zoom-in-up">
+                        <div class="glass-card p-8 rounded-2xl border-t-4 border-cyan-500 text-center">
+                            <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-cyan-900/50 mb-6 shadow-[0_0_20px_rgba(6,182,212,0.4)]">
+                                <i class="fas fa-network-wired text-4xl text-cyan-400"></i>
+                            </div>
+                            <h3 class="text-3xl font-heading font-bold mb-2 text-white">7 Internet Cafes</h3>
+                            <p class="text-cyan-400 text-sm mb-2 font-mono">MANAGED SIMULTANEOUSLY</p>
+    
+                            <!-- Added Era Badge -->
+                            <div class="inline-block px-4 py-1 rounded-full bg-cyan-950/50 border border-cyan-500/30 text-cyan-200 text-xs font-mono mb-6">
+                                Era 2013 — 2018
+                            </div>
+    
+                            <div class="grid grid-cols-1 gap-3 text-left">
+                                <div class="p-3 bg-white/5 rounded flex items-center gap-3">
+                                    <i class="fas fa-hdd text-cyan-500"></i>
+                                    <span class="text-sm text-slate-300">Diskless Topology (CyberIndo/CCBoot)</span>
+                                </div>
+                                <div class="p-3 bg-white/5 rounded flex items-center gap-3">
+                                    <i class="fas fa-tachometer-alt text-cyan-500"></i>
+                                    <span class="text-sm text-slate-300">Gaming & Network Tuning</span>
+                                </div>
+                                <div class="p-3 bg-white/5 rounded flex items-center gap-3">
+                                    <i class="fas fa-ethernet text-cyan-500"></i>
+                                    <span class="text-sm text-slate-300">Advanced Cabling Management</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Right: Text -->
+                    <div class="order-1 md:order-2 text-left md:text-right" data-aos="fade-left">
+                        <span class="text-cyan-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 4: THE SPECIALIST</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-cyan-50">Internet Cafe Specialist</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed">
+                            During the internet-cafe era (2013-2018), downtime meant loss. I was trusted to manage technical operations across <strong>7 cafes simultaneously</strong> in Kab. Malang—my crucible for network management and rapid troubleshooting.
+                        </p>
+                    </div>
+                </div>
+            </section>

@@ -1,0 +1,23 @@
+order: 3
+title:
+  id: Anggota Komisioner Panwaslu
+  en: Commissioner at Panwaslu
+period:
+  id: 2018 — 2021
+  en: 2018 — 2021
+badge_class: text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded
+company:
+  id: Kecamatan Wonosari
+  en: Wonosari Subdistrict
+subtitle:
+  id: Kordiv Hukum, Sengketa dan Penanganan Pelanggaran
+  en: Head of Legal, Disputes & Violation Handling
+bullets:
+  id:
+  - Analisis regulasi hukum, mediasi sengketa, dan penindakan pelanggaran.
+  - Manajemen SDM Pengawas Desa/TPS serta Humas & Hubungan Antar Lembaga.
+  - Analisis data pengawasan pemilu & penyusunan laporan berbasis data.
+  en:
+  - Legal regulation analysis, dispute mediation, and enforcement.
+  - Managed polling-station personnel and public relations between institutions.
+  - Analyzed election-monitoring data and produced data-driven reports.

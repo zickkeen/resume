@@ -1,0 +1,22 @@
+order: 0
+title:
+  id: System Administrator
+  en: System Administrator
+period:
+  id: 2022 — Sekarang
+  en: 2022 — Present
+badge_class: text-[10px] font-bold text-white bg-blue-600 px-2 py-0.5 rounded
+company:
+  id: Jagoanhosting Indonesia
+  en: Jagoanhosting Indonesia
+bullets:
+  id:
+  - Manajemen Cluster Server (Proxmox, Virtualizor, KVM, OpenVZ).
+  - Optimasi <strong>CloudLinux + cPanel</strong> dan troubleshooting mendalam.
+  - Keamanan server proaktif dengan <strong>Bitninja</strong> & Wazuh SIEM.
+  - Pengembangan tool internal menggunakan <strong>PHP, JavaScript, Go, & C++</strong>.
+  en:
+  - Manage server clusters (Proxmox, Virtualizor, KVM, OpenVZ).
+  - Optimize <strong>CloudLinux + cPanel</strong> and perform deep troubleshooting.
+  - Proactive server security with <strong>Bitninja</strong> & Wazuh SIEM.
+  - Develop internal tools using <strong>PHP, JavaScript, Go, & C++</strong>.

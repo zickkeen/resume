@@ -1,0 +1,120 @@
+order: 5
+title:
+    id: ANALIS DATA
+    en: DATA ANALYST
+id: |
+    <!-- SECTION 5: KOPERASI WAHIDIYAH (2011-2018) -->
+            <section class="section" id="section-5">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <div class="glow-blob" style="top: 20%; right: 20%; background: radial-gradient(circle, rgba(99, 102, 241, 0.2) 0%, transparent 70%);"></div>
+
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+                    <!-- Left: Text -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-indigo-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 4.5: THE DATA STEWARD</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-indigo-50">Data, Bukan Sekadar Angka</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            Sebagai <strong>Sekretaris & Administrator Data</strong> di <strong>Koperasi Wahidiyah Kec. Wonosari</strong>, saya bertanggung jawab atas administrasi dan pengelolaan data anggota, simpanan, dan transaksi koperasi.
+                        </p>
+                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-indigo-500">
+                            <p class="text-slate-300 text-sm italic">
+                                "Di sinilah fondasi perjalanan saya sebagai data analyst dimulai: mengubah data mentah menjadi laporan yang dapat dipercaya."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Right: Visual -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-indigo-500 relative">
+                            <div class="flex items-center gap-6 mb-6">
+                                <div class="w-16 h-16 rounded-full bg-indigo-600/20 flex items-center justify-center text-indigo-400 text-3xl">
+                                    <i class="fas fa-file-excel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Sekretaris & Administrator Data</h3>
+                                    <p class="text-sm text-indigo-300 font-mono uppercase tracking-wider">Koperasi Wahidiyah (2011-2018)</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
+                                <ul class="space-y-4 text-sm text-slate-300">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-database text-indigo-400 mt-1 shrink-0"></i>
+                                        <span><strong>Data Analyst:</strong> Analisis data anggota, simpanan & kredit untuk pengambilan keputusan.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-file-excel text-green-400 mt-1 shrink-0"></i>
+                                        <span><strong>Excel Expert:</strong> Laporan keuangan, formula & otomasi pengolahan data.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fab fa-python text-yellow-400 mt-1 shrink-0"></i>
+                                        <span><strong>Python Expert:</strong> Otomasi analisis & pengolahan dataset koperasi.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 5: KOPERASI WAHIDIYAH (2011-2018) -->
+            <section class="section" id="section-5">
+                <div class="bg-grid"></div>
+                <div class="timeline-line-v"></div>
+                <div class="glow-blob" style="top: 20%; right: 20%; background: radial-gradient(circle, rgba(99, 102, 241, 0.2) 0%, transparent 70%);"></div>
+
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+                    <!-- Left: Text -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-indigo-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 4.5: THE DATA STEWARD</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-indigo-50">Data, Not Just Numbers</h2>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            As <strong>Secretary & Data Administrator</strong> at <strong>Wahidiyah Cooperative, Wonosari District</strong>, I was responsible for administration and management of member, savings, and transaction data.
+                        </p>
+                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-indigo-500">
+                            <p class="text-slate-300 text-sm italic">
+                                "This is where my journey as a data analyst began: turning raw data into trustworthy reports."
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Right: Visual -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-indigo-500 relative">
+                            <div class="flex items-center gap-6 mb-6">
+                                <div class="w-16 h-16 rounded-full bg-indigo-600/20 flex items-center justify-center text-indigo-400 text-3xl">
+                                    <i class="fas fa-file-excel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Secretary & Data Administrator</h3>
+                                    <p class="text-sm text-indigo-300 font-mono uppercase tracking-wider">Wahidiyah Cooperative (2011-2018)</p>
+                                </div>
+                            </div>
+
+                            <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
+                                <ul class="space-y-4 text-sm text-slate-300">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-database text-indigo-400 mt-1 shrink-0"></i>
+                                        <span><strong>Data Analyst:</strong> Analyzed member, savings & credit data to support decisions.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-file-excel text-green-400 mt-1 shrink-0"></i>
+                                        <span><strong>Excel Expert:</strong> Financial reporting, formulas & data processing automation.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-cubes text-purple-400 mt-1 shrink-0"></i>
+                                        <span><strong>ERP & Odoo (Basic):</strong> Accounting, inventory & reporting module workflows.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fab fa-python text-yellow-400 mt-1 shrink-0"></i>
+                                        <span><strong>Python Expert:</strong> Automated analysis & processing of cooperative datasets.</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>

@@ -1,0 +1,16 @@
+name:
+  id: Data Analyst
+  en: Data Analyst
+tags:
+  - label: Python (Expert)
+    title: Data Science
+    class: border-indigo-500/30 text-indigo-300
+  - label: Microsoft Excel (Expert)
+    title: Spreadsheets
+    class: border-indigo-500/30 text-indigo-300
+  - label: ERP
+    title: ERP
+    class: border-indigo-500/30 text-indigo-300
+  - label: Odoo (Basic)
+    title: ERP
+    class: border-indigo-500/30 text-indigo-300

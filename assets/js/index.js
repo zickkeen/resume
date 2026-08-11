@@ -43,6 +43,7 @@ function switchLang(targetPage) {
         const h = section.clientHeight;
         if (window.scrollY >= (top - h / 2)) current = index;
     });
-    // Navigate to target page with fragment pointing to the same section
-    window.location.href = targetPage + '#section-' + current;
+    const targetUrl = new URL(targetPage, window.location.origin);
+    targetUrl.hash = 'section-' + current;
+    window.location.href = targetUrl.toString();
 }

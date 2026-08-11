@@ -1,0 +1,92 @@
+order: 8
+title:
+    id: UPAZNET
+    en: UPAZNET
+id: |
+    <!-- SECTION 7: UPAZNET (2021-2022) -->
+            <section class="section" id="section-8">
+                <div class="bg-grid"></div>
+                <div class="glow-blob" style="bottom: 10%; right: 10%; background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+                    <!-- Left: Text -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-emerald-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 6: NETWORK ARCHITECT</span>
+                        <h2 class="text-4xl font-heading font-bold mb-4 text-emerald-100">Arsitek ISP</h2>
+                        <p class="text-slate-400 text-lg mb-6">
+                            Kembali ke teknis penuh di <strong>Upaznet</strong>. Mendesain topologi yang menghubungkan ribuan pengguna dengan latensi minimal.
+                        </p>
+                        <ul class="space-y-3 text-slate-300">
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check-circle text-emerald-500"></i> Desain Routing BGP & OSPF
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check-circle text-emerald-500"></i> Manajemen VLAN & Traffic Engineering
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check-circle text-emerald-500"></i> Optimasi Mikrotik & Cisco
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Right: Visual -->
+                    <div class="relative" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-emerald-500 relative overflow-hidden group hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <i class="fas fa-network-wired text-4xl text-emerald-400 mb-4"></i>
+                            <h3 class="text-2xl font-heading font-bold mb-2">Network Admin</h3>
+                            <p class="text-slate-400 text-sm">2021 — 2022</p>
+                            <div class="mt-6 flex gap-4 text-4xl text-slate-600">
+                                <i class="fas fa-server hover:text-emerald-400 transition-colors"></i>
+                                <i class="fas fa-wifi hover:text-emerald-400 transition-colors"></i>
+                                <i class="fas fa-globe hover:text-emerald-400 transition-colors"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+en: |
+    <!-- SECTION 7: UPAZNET (2021-2022) -->
+            <section class="section" id="section-8">
+                <div class="bg-grid"></div>
+                <div class="glow-blob" style="bottom: 10%; right: 10%; background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);"></div>
+    
+                <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+    
+                    <!-- Left: Text -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-emerald-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 6: NETWORK ARCHITECT</span>
+                        <h2 class="text-4xl font-heading font-bold mb-4 text-emerald-100">ISP Architect</h2>
+                        <p class="text-slate-400 text-lg mb-6">
+                            Returned to core technical work at <strong>Upaznet</strong>. Designed topologies connecting thousands of users with minimal latency.
+                        </p>
+                        <ul class="space-y-3 text-slate-300">
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check-circle text-emerald-500"></i> BGP & OSPF Routing Design
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check-circle text-emerald-500"></i> VLAN & Traffic Engineering
+                            </li>
+                            <li class="flex items-center gap-3">
+                                <i class="fas fa-check-circle text-emerald-500"></i> Mikrotik & Cisco Optimization
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Right: Visual -->
+                    <div class="relative" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-emerald-500 relative overflow-hidden group hover:scale-105 transition-transform duration-500">
+                            <div class="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <i class="fas fa-network-wired text-4xl text-emerald-400 mb-4"></i>
+                            <h3 class="text-2xl font-heading font-bold mb-2">Network Admin</h3>
+                            <p class="text-slate-400 text-sm">2021 — 2022</p>
+                            <div class="mt-6 flex gap-4 text-4xl text-slate-600">
+                                <i class="fas fa-server hover:text-emerald-400 transition-colors"></i>
+                                <i class="fas fa-wifi hover:text-emerald-400 transition-colors"></i>
+                                <i class="fas fa-globe hover:text-emerald-400 transition-colors"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>

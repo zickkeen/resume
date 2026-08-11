@@ -1,0 +1,13 @@
+<!-- Main Container -->
+<main id="mainContainer">
+    {% assign locale = page.lang | default: 'id' %}
+    {% assign section_pairs = site.data.journey.sections | sort %}
+    {% for pair in section_pairs %}
+        {% assign section = pair[1] %}
+        {% if section.include %}
+            {% include {{ section.include }} %}
+        {% else %}
+            {{ section[locale] }}
+        {% endif %}
+    {% endfor %}
+</main>

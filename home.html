@@ -1,0 +1,21 @@
+---
+permalink: /
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="0;url={{ '/id/' | relative_url }}">
+  <title>Redirecting...</title>
+  <script>
+    const target = (navigator.language || '').toLowerCase().startsWith('en')
+      ? "{{ '/en/' | relative_url }}"
+      : "{{ '/id/' | relative_url }}";
+    location.replace(target);
+  </script>
+</head>
+<body>
+  <noscript><a href="{{ '/id/' | relative_url }}">Continue</a></noscript>
+</body>
+</html>

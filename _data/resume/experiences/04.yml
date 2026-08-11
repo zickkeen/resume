@@ -1,0 +1,18 @@
+order: 4
+title:
+  id: Warnet Specialist Technician
+  en: Internet Cafe Specialist Technician
+period:
+  id: 2013 — 2018
+  en: 2013 — 2018
+badge_class: text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded
+company:
+  id: 7 Warnet (Kab. Malang)
+  en: 7 Internet Cafes (Kab. Malang)
+bullets:
+  id:
+  - Manajemen 7 cabang warnet secara simultan.
+  - Implementasi Diskless Topology (CyberIndo/CCBoot) & Tuning Jaringan Game.
+  en:
+  - Managed 7 branches concurrently.
+  - Implemented Diskless Topology (CyberIndo/CCBoot) & tuned gaming networks.
