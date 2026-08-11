@@ -5,7 +5,8 @@
     {% for pair in section_pairs %}
         {% assign section = pair[1] %}
         {% if section.include %}
-            {% include {{ section.include }} %}
+            {% assign include_path = section.include %}
+            {% include {{ include_path }} %}
         {% else %}
             {{ section[locale] }}
         {% endif %}
