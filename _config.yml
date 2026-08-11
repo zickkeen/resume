@@ -3,6 +3,9 @@ description: Portfolio & Resume bilingual (ID/EN)
 baseurl: ""
 url: ""
 
+exclude:
+  - AGENTS.md
+
 defaults:
   - scope:
       path: ""
