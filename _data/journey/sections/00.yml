@@ -16,7 +16,7 @@ id: |
                         Muhamad<br>Tuhfatur Roziqin
                     </h1>
                     <p class="text-xl md:text-2xl text-slate-400 mb-8 font-light">
-                        System Engineer <span class="text-blue-500 mx-2">&bull;</span> Network Security
+                        System Engineer <span class="text-blue-500 mx-2">&bull;</span> Data Analyst <span class="text-blue-500 mx-2">&bull;</span> Network Security
                     </p>
                     <button onclick="scrollToSection(1)" class="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition-all flex items-center gap-2 mx-auto cursor-pointer">
                         Mulai Perjalanan
@@ -42,7 +42,7 @@ en: |
                         Muhamad<br>Tuhfatur Roziqin
                     </h1>
                     <p class="text-xl md:text-2xl text-slate-400 mb-8 font-light">
-                        System Engineer <span class="text-blue-500 mx-2">&bull;</span> Network Security
+                        System Engineer <span class="text-blue-500 mx-2">&bull;</span> Data Analyst <span class="text-blue-500 mx-2">&bull;</span> Network Security
                     </p>
                     <button onclick="scrollToSection(1)" class="group bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-full transition-all flex items-center gap-2 mx-auto cursor-pointer">
                         Start The Journey

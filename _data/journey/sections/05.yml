@@ -1,73 +1,56 @@
 order: 5
 title:
-    id: KOMISIONER
-    en: THE COMMISSIONER
+    id: ANALIS DATA
+    en: DATA ANALYST
 id: |
-    <!-- SECTION 5: THE COMMISSIONER (PANWASLU) -->
+    <!-- SECTION 5: KOPERASI WAHIDIYAH (2011-2018) -->
             <section class="section" id="section-5">
                 <div class="bg-grid"></div>
                 <div class="timeline-line-v"></div>
-                <!-- Glow Red for Bawaslu Theme -->
-                <div class="glow-blob" style="top: 15%; right: 15%; background: radial-gradient(circle, rgba(239, 68, 68, 0.2) 0%, transparent 70%);"></div>
-    
+                <div class="glow-blob" style="top: 20%; right: 20%; background: radial-gradient(circle, rgba(99, 102, 241, 0.2) 0%, transparent 70%);"></div>
+
                 <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-    
-                    <!-- Left: Text Description -->
+
+                    <!-- Left: Text -->
                     <div class="text-left" data-aos="fade-right">
-                        <span class="text-red-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5: THE COMMISSIONER</span>
-                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-red-50">Hukum & Diplomasi</h2>
-    
+                        <span class="text-indigo-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 4.5: THE DATA STEWARD</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-indigo-50">Data, Bukan Sekadar Angka</h2>
                         <p class="text-slate-400 text-lg leading-relaxed mb-6">
-                            Sebuah fase transformasi manajerial. Sebagai <strong>Komisioner Panwaslu</strong> dengan amanah sebagai <strong>Kordiv Hukum, Sengketa dan Penanganan Pelanggaran</strong>, saya tidak hanya bergelut dengan pasal-pasal, tetapi juga seni komunikasi tingkat tinggi.
+                            Sebagai <strong>Sekretaris & Administrator Data</strong> di <strong>Koperasi Wahidiyah Kec. Wonosari</strong>, saya bertanggung jawab atas administrasi dan pengelolaan data anggota, simpanan, dan transaksi koperasi.
                         </p>
-    
-                        <div class="space-y-4 text-slate-300">
-                            <p class="leading-relaxed text-sm">
-                                Tantangan utamanya adalah menerjemahkan bahasa hukum yang kaku menjadi bahasa <strong>Humas</strong> yang mudah diterima masyarakat, serta melakukan <strong>Negosiasi</strong> dan mediasi dalam penyelesaian sengketa antar peserta pemilu.
+                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-indigo-500">
+                            <p class="text-slate-300 text-sm italic">
+                                "Di sinilah fondasi perjalanan saya sebagai data analyst dimulai: mengubah data mentah menjadi laporan yang dapat dipercaya."
                             </p>
-                            <div class="flex flex-wrap gap-3 mt-4">
-                                 <!-- Hard Skills (Legal) -->
-                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Legal Drafting</span>
-                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Penyelesaian Sengketa</span>
-    
-                                 <!-- Soft Skills (Communication) -->
-                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Public Speaking</span>
-                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Negosiasi & Mediasi</span>
-                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Manajemen Relasi</span>
-                            </div>
                         </div>
                     </div>
-    
-                    <!-- Right: Visual Cards (Focus on Role) -->
+
+                    <!-- Right: Visual -->
                     <div class="order-2" data-aos="fade-left">
-                        <div class="glass-card p-8 rounded-2xl border-r-4 border-red-600 relative">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-indigo-500 relative">
                             <div class="flex items-center gap-6 mb-6">
-                                <div class="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center text-red-500 text-3xl">
-                                    <i class="fas fa-gavel"></i>
+                                <div class="w-16 h-16 rounded-full bg-indigo-600/20 flex items-center justify-center text-indigo-400 text-3xl">
+                                    <i class="fas fa-file-excel"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-2xl font-heading font-bold text-white">Komisioner Panwaslu</h3>
-                                    <p class="text-sm text-red-300 font-mono uppercase tracking-wider">Kec. Wonosari (2018-2021)</p>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Sekretaris & Administrator Data</h3>
+                                    <p class="text-sm text-indigo-300 font-mono uppercase tracking-wider">Koperasi Wahidiyah (2011-2018)</p>
                                 </div>
                             </div>
-    
+
                             <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
                                 <ul class="space-y-4 text-sm text-slate-300">
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-book-section text-red-400 mt-1 shrink-0"></i>
-                                        <span><strong>Hukum:</strong> Analisis regulasi dan produk hukum kepemiluan.</span>
+                                        <i class="fas fa-database text-indigo-400 mt-1 shrink-0"></i>
+                                        <span><strong>Data Analyst:</strong> Analisis data anggota, simpanan & kredit untuk pengambilan keputusan.</span>
                                     </li>
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-handshake text-orange-400 mt-1 shrink-0"></i>
-                                        <span><strong>Sengketa:</strong> Mediasi konflik dan penyelesaian sengketa proses.</span>
+                                        <i class="fas fa-file-excel text-green-400 mt-1 shrink-0"></i>
+                                        <span><strong>Excel Expert:</strong> Laporan keuangan, formula & otomasi pengolahan data.</span>
                                     </li>
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-exclamation-triangle text-red-400 mt-1 shrink-0"></i>
-                                        <span><strong>Penanganan Pelanggaran:</strong> Investigasi dan penindakan temuan/laporan.</span>
-                                    </li>
-                                    <li class="flex items-start gap-3">
-                                        <i class="fas fa-bullhorn text-orange-400 mt-1 shrink-0"></i>
-                                        <span><strong>Humas & Relasi:</strong> Sosialisasi regulasi dan kerjasama antar lembaga.</span>
+                                        <i class="fab fa-python text-yellow-400 mt-1 shrink-0"></i>
+                                        <span><strong>Python Expert:</strong> Otomasi analisis & pengolahan dataset koperasi.</span>
                                     </li>
                                 </ul>
                             </div>
@@ -76,71 +59,58 @@ id: |
                 </div>
             </section>
 en: |
-    <!-- SECTION 5: THE COMMISSIONER (PANWASLU) -->
+    <!-- SECTION 5: KOPERASI WAHIDIYAH (2011-2018) -->
             <section class="section" id="section-5">
                 <div class="bg-grid"></div>
                 <div class="timeline-line-v"></div>
-                <!-- Glow Red for Bawaslu Theme -->
-                <div class="glow-blob" style="top: 15%; right: 15%; background: radial-gradient(circle, rgba(239, 68, 68, 0.2) 0%, transparent 70%);"></div>
-    
+                <div class="glow-blob" style="top: 20%; right: 20%; background: radial-gradient(circle, rgba(99, 102, 241, 0.2) 0%, transparent 70%);"></div>
+
                 <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-    
-                    <!-- Left: Text Description -->
+
+                    <!-- Left: Text -->
                     <div class="text-left" data-aos="fade-right">
-                        <span class="text-red-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5: THE COMMISSIONER</span>
-                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-red-50">Law & Diplomacy</h2>
-    
+                        <span class="text-indigo-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 4.5: THE DATA STEWARD</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-indigo-50">Data, Not Just Numbers</h2>
                         <p class="text-slate-400 text-lg leading-relaxed mb-6">
-                            A phase of managerial transformation. As a <strong>Commissioner at Panwaslu</strong> serving as <strong>Head of Legal, Disputes & Violation Handling</strong>, I dealt not only with legal texts but also the high-art of communication.
+                            As <strong>Secretary & Data Administrator</strong> at <strong>Wahidiyah Cooperative, Wonosari District</strong>, I was responsible for administration and management of member, savings, and transaction data.
                         </p>
-    
-                        <div class="space-y-4 text-slate-300">
-                            <p class="leading-relaxed text-sm">
-                                The main challenge was translating rigid legal language into public-facing communication, while conducting negotiations and mediations to resolve election-related disputes.
+                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-indigo-500">
+                            <p class="text-slate-300 text-sm italic">
+                                "This is where my journey as a data analyst began: turning raw data into trustworthy reports."
                             </p>
-                            <div class="flex flex-wrap gap-3 mt-4">
-                                 <!-- Hard Skills (Legal) -->
-                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Legal Drafting</span>
-                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Dispute Resolution</span>
-    
-                                 <!-- Soft Skills (Communication) -->
-                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Public Speaking</span>
-                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Negotiation & Mediation</span>
-                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Relationship Management</span>
-                            </div>
                         </div>
                     </div>
-    
-                    <!-- Right: Visual Cards (Focus on Role) -->
+
+                    <!-- Right: Visual -->
                     <div class="order-2" data-aos="fade-left">
-                        <div class="glass-card p-8 rounded-2xl border-r-4 border-red-600 relative">
+                        <div class="glass-card p-8 rounded-2xl border-l-4 border-indigo-500 relative">
                             <div class="flex items-center gap-6 mb-6">
-                                <div class="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center text-red-500 text-3xl">
-                                    <i class="fas fa-gavel"></i>
+                                <div class="w-16 h-16 rounded-full bg-indigo-600/20 flex items-center justify-center text-indigo-400 text-3xl">
+                                    <i class="fas fa-file-excel"></i>
                                 </div>
                                 <div>
-                                    <h3 class="text-2xl font-heading font-bold text-white">Commissioner at Panwaslu</h3>
-                                    <p class="text-sm text-red-300 font-mono uppercase tracking-wider">Kec. Wonosari (2018-2021)</p>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Secretary & Data Administrator</h3>
+                                    <p class="text-sm text-indigo-300 font-mono uppercase tracking-wider">Wahidiyah Cooperative (2011-2018)</p>
                                 </div>
                             </div>
-    
+
                             <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
                                 <ul class="space-y-4 text-sm text-slate-300">
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-book-section text-red-400 mt-1 shrink-0"></i>
-                                        <span><strong>Law:</strong> Regulatory analysis and election-related legal products.</span>
+                                        <i class="fas fa-database text-indigo-400 mt-1 shrink-0"></i>
+                                        <span><strong>Data Analyst:</strong> Analyzed member, savings & credit data to support decisions.</span>
                                     </li>
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-handshake text-orange-400 mt-1 shrink-0"></i>
-                                        <span><strong>Disputes:</strong> Conflict mediation and process dispute resolution.</span>
+                                        <i class="fas fa-file-excel text-green-400 mt-1 shrink-0"></i>
+                                        <span><strong>Excel Expert:</strong> Financial reporting, formulas & data processing automation.</span>
                                     </li>
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-exclamation-triangle text-red-400 mt-1 shrink-0"></i>
-                                        <span><strong>Violation Handling:</strong> Investigation and enforcement of reports/findings.</span>
+                                        <i class="fas fa-cubes text-purple-400 mt-1 shrink-0"></i>
+                                        <span><strong>ERP & Odoo (Basic):</strong> Accounting, inventory & reporting module workflows.</span>
                                     </li>
                                     <li class="flex items-start gap-3">
-                                        <i class="fas fa-bullhorn text-orange-400 mt-1 shrink-0"></i>
-                                        <span><strong>Public Relations:</strong> Regulation socialization and inter-agency cooperation.</span>
+                                        <i class="fab fa-python text-yellow-400 mt-1 shrink-0"></i>
+                                        <span><strong>Python Expert:</strong> Automated analysis & processing of cooperative datasets.</span>
                                     </li>
                                 </ul>
                             </div>

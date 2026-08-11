@@ -1,147 +1,158 @@
 order: 6
 title:
-    id: PROYEK KHUSUS
-    en: SPECIAL PROJECT
+    id: KOMISIONER
+    en: THE COMMISSIONER
 id: |
-    <!-- SECTION 6: SPECIAL PROJECT (EP 5.1) - NEW! -->
+    <!-- SECTION 5: THE COMMISSIONER (PANWASLU) -->
             <section class="section" id="section-6">
                 <div class="bg-grid"></div>
                 <div class="timeline-line-v"></div>
-                <!-- Yellow Glow for Special Project -->
-                <div class="glow-blob" style="bottom: 20%; left: 20%; background: radial-gradient(circle, rgba(234, 179, 8, 0.2) 0%, transparent 70%);"></div>
+                <!-- Glow Red for Bawaslu Theme -->
+                <div class="glow-blob" style="top: 15%; right: 15%; background: radial-gradient(circle, rgba(239, 68, 68, 0.2) 0%, transparent 70%);"></div>
     
                 <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     
-                    <!-- Left: Visual Stats -->
-                    <div class="order-2 md:order-1" data-aos="zoom-in">
-                        <div class="glass-card p-8 rounded-2xl border-t-4 border-yellow-500 relative bg-[#0f172a]/95 shadow-2xl">
-                            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-slate-900 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider shadow-lg">
-                                High Scale Engineering
-                            </div>
+                    <!-- Left: Text Description -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-red-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5: THE COMMISSIONER</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-red-50">Hukum & Diplomasi</h2>
     
-                            <div class="text-center mb-4 mt-2">
-                                <i class="fab fa-telegram text-5xl text-blue-400 mb-4 inline-block"></i>
-                                <h3 class="text-2xl font-heading font-bold text-white">Bot Real-Count Jatim</h3>
-                                <p class="text-slate-400 text-sm">Technical Lead (Ad-Hoc Project)</p>
-                            </div>
-    
-                            <!-- Timeline Badge -->
-                            <div class="text-center mb-8">
-                                <div class="inline-block px-4 py-1 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-200 text-xs font-mono">
-                                    Okt 2020 — Mar 2021
-                                </div>
-                            </div>
-    
-                            <!-- High Load Stats -->
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
-                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Coverage</div>
-                                    <div class="text-2xl font-bold text-white">19</div>
-                                    <div class="text-[10px] text-slate-400">Kabupaten/Kota</div>
-                                </div>
-                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
-                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Active Users</div>
-                                    <div class="text-2xl font-bold text-white">48.6K</div>
-                                    <div class="text-[10px] text-slate-400">Pengawas TPS</div>
-                                </div>
-                                <div class="col-span-2 bg-gradient-to-r from-red-900/40 to-slate-900/60 p-4 rounded-xl border border-red-500/40 relative overflow-hidden flex items-center justify-between">
-                                    <div class="absolute inset-0 bg-red-500/5 animate-pulse"></div>
-                                    <div class="text-left relative z-10">
-                                        <div class="text-[10px] uppercase tracking-wider text-red-300 mb-1">Peak Traffic Load</div>
-                                        <div class="text-3xl font-bold text-white">> 100k</div>
-                                        <div class="text-xs text-red-200">Requests / Second</div>
-                                    </div>
-                                    <i class="fas fa-bolt text-yellow-400 text-3xl animate-bounce relative z-10 mr-4"></i>
-                                </div>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            Sebuah fase transformasi manajerial. Sebagai <strong>Komisioner Panwaslu</strong> dengan amanah sebagai <strong>Kordiv Hukum, Sengketa dan Penanganan Pelanggaran</strong>, saya tidak hanya bergelut dengan pasal-pasal, tetapi juga seni komunikasi tingkat tinggi dan <strong>analisis data pengawasan</strong>.
+                        </p>
+
+                        <div class="space-y-4 text-slate-300">
+                            <p class="leading-relaxed text-sm">
+                                Tantangan utamanya adalah menerjemahkan bahasa hukum yang kaku menjadi bahasa <strong>Humas</strong> yang mudah diterima masyarakat, serta melakukan <strong>Negosiasi</strong> dan mediasi dalam penyelesaian sengketa antar peserta pemilu — didukung olah data pengawasan untuk laporan yang akurat.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mt-4">
+                                 <!-- Hard Skills (Legal & Data) -->
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Legal Drafting</span>
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Penyelesaian Sengketa</span>
+                                 <span class="px-3 py-1 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-200 text-xs">Data Analyst</span>
+
+                                 <!-- Soft Skills (Communication) -->
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Public Speaking</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Negosiasi & Mediasi</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Manajemen Relasi</span>
                             </div>
                         </div>
                     </div>
     
-                    <!-- Right: Text -->
-                    <div class="order-1 md:order-2 text-left" data-aos="fade-left">
-                        <span class="text-yellow-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5.1: SPECIAL PROJECT</span>
-                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-yellow-50">Teknologi Skala Besar</h2>
+                    <!-- Right: Visual Cards (Focus on Role) -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-r-4 border-red-600 relative">
+                            <div class="flex items-center gap-6 mb-6">
+                                <div class="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center text-red-500 text-3xl">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Komisioner Panwaslu</h3>
+                                    <p class="text-sm text-red-300 font-mono uppercase tracking-wider">Kec. Wonosari (2018-2021)</p>
+                                </div>
+                            </div>
     
-                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
-                            Di tengah kesibukan sebagai Komisioner, jiwa <em>engineer</em> saya dipanggil kembali. Bawaslu Jawa Timur mempercayakan pembangunan sistem pelaporan digital yang harus melayani <strong>48.600 pengguna secara serentak</strong>.
-                        </p>
-    
-                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-yellow-500">
-                            <p class="text-slate-300 text-sm italic">
-                                "Proyek ini bukan sekadar coding, tapi tentang arsitektur sistem yang mampu bertahan dari gempuran traffic masif saat penghitungan suara berlangsung."
-                            </p>
+                            <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
+                                <ul class="space-y-4 text-sm text-slate-300">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-book-section text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Hukum:</strong> Analisis regulasi dan produk hukum kepemiluan.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-handshake text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Sengketa:</strong> Mediasi konflik dan penyelesaian sengketa proses.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-exclamation-triangle text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Penanganan Pelanggaran:</strong> Investigasi dan penindakan temuan/laporan.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-chart-bar text-indigo-400 mt-1 shrink-0"></i>
+                                        <span><strong>Analisis Data:</strong> Pengolahan data pengawasan pemilu untuk akurasi laporan.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-bullhorn text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Humas & Relasi:</strong> Sosialisasi regulasi dan kerjasama antar lembaga.</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 en: |
-    <!-- SECTION 6: SPECIAL PROJECT (EP 5.1) - NEW! -->
+    <!-- SECTION 5: THE COMMISSIONER (PANWASLU) -->
             <section class="section" id="section-6">
                 <div class="bg-grid"></div>
                 <div class="timeline-line-v"></div>
-                <!-- Yellow Glow for Special Project -->
-                <div class="glow-blob" style="bottom: 20%; left: 20%; background: radial-gradient(circle, rgba(234, 179, 8, 0.2) 0%, transparent 70%);"></div>
+                <!-- Glow Red for Bawaslu Theme -->
+                <div class="glow-blob" style="top: 15%; right: 15%; background: radial-gradient(circle, rgba(239, 68, 68, 0.2) 0%, transparent 70%);"></div>
     
                 <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     
-                    <!-- Left: Visual Stats -->
-                    <div class="order-2 md:order-1" data-aos="zoom-in">
-                        <div class="glass-card p-8 rounded-2xl border-t-4 border-yellow-500 relative bg-[#0f172a]/95 shadow-2xl">
-                            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-slate-900 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider shadow-lg">
-                                High Scale Engineering
-                            </div>
+                    <!-- Left: Text Description -->
+                    <div class="text-left" data-aos="fade-right">
+                        <span class="text-red-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5: THE COMMISSIONER</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-red-50">Law & Diplomacy</h2>
     
-                            <div class="text-center mb-4 mt-2">
-                                <i class="fab fa-telegram text-5xl text-blue-400 mb-4 inline-block"></i>
-                                <h3 class="text-2xl font-heading font-bold text-white">Bot Real-Count Jatim</h3>
-                                <p class="text-slate-400 text-sm">Technical Lead (Ad-Hoc Project)</p>
-                            </div>
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            A phase of managerial transformation. As a <strong>Commissioner at Panwaslu</strong> serving as <strong>Head of Legal, Disputes & Violation Handling</strong>, I dealt not only with legal texts but also the high-art of communication.
+                        </p>
     
-                            <!-- Timeline Badge -->
-                            <div class="text-center mb-8">
-                                <div class="inline-block px-4 py-1 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-200 text-xs font-mono">
-                                    Oct 2020 — Mar 2021
-                                </div>
-                            </div>
+                        <div class="space-y-4 text-slate-300">
+                            <p class="leading-relaxed text-sm">
+                                The main challenge was translating rigid legal language into public-facing communication, while conducting negotiations and mediations to resolve election-related disputes.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mt-4">
+                                 <!-- Hard Skills (Legal) -->
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Legal Drafting</span>
+                                 <span class="px-3 py-1 rounded bg-red-500/10 border border-red-500/30 text-red-200 text-xs">Dispute Resolution</span>
     
-                            <!-- High Load Stats -->
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
-                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Coverage</div>
-                                    <div class="text-2xl font-bold text-white">19</div>
-                                    <div class="text-[10px] text-slate-400">Regencies/Cities</div>
-                                </div>
-                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
-                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Active Users</div>
-                                    <div class="text-2xl font-bold text-white">48.6K</div>
-                                    <div class="text-[10px] text-slate-400">Polling Station Supervisors</div>
-                                </div>
-                                <div class="col-span-2 bg-gradient-to-r from-red-900/40 to-slate-900/60 p-4 rounded-xl border border-red-500/40 relative overflow-hidden flex items-center justify-between">
-                                    <div class="absolute inset-0 bg-red-500/5 animate-pulse"></div>
-                                    <div class="text-left relative z-10">
-                                        <div class="text-[10px] uppercase tracking-wider text-red-300 mb-1">Peak Traffic Load</div>
-                                        <div class="text-3xl font-bold text-white">> 100k</div>
-                                        <div class="text-xs text-red-200">Requests / Second</div>
-                                    </div>
-                                    <i class="fas fa-bolt text-yellow-400 text-3xl animate-bounce relative z-10 mr-4"></i>
-                                </div>
+                                 <!-- Soft Skills (Communication) -->
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Public Speaking</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Negotiation & Mediation</span>
+                                 <span class="px-3 py-1 rounded bg-orange-500/10 border border-orange-500/30 text-orange-200 text-xs">Relationship Management</span>
                             </div>
                         </div>
                     </div>
     
-                    <!-- Right: Text -->
-                    <div class="order-1 md:order-2 text-left" data-aos="fade-left">
-                        <span class="text-yellow-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5.1: SPECIAL PROJECT</span>
-                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-yellow-50">Large-Scale Technology</h2>
+                    <!-- Right: Visual Cards (Focus on Role) -->
+                    <div class="order-2" data-aos="fade-left">
+                        <div class="glass-card p-8 rounded-2xl border-r-4 border-red-600 relative">
+                            <div class="flex items-center gap-6 mb-6">
+                                <div class="w-16 h-16 rounded-full bg-red-600/20 flex items-center justify-center text-red-500 text-3xl">
+                                    <i class="fas fa-gavel"></i>
+                                </div>
+                                <div>
+                                    <h3 class="text-2xl font-heading font-bold text-white">Commissioner at Panwaslu</h3>
+                                    <p class="text-sm text-red-300 font-mono uppercase tracking-wider">Kec. Wonosari (2018-2021)</p>
+                                </div>
+                            </div>
     
-                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
-                            While serving as Commissioner, my engineer side was called back. Bawaslu East Java entrusted me to build a digital reporting system serving <strong>48,600 users concurrently</strong>.
-                        </p>
-    
-                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-yellow-500">
-                            <p class="text-slate-300 text-sm italic">
-                                "This project was not just coding but architecture that could withstand massive traffic surges during vote counting."
-                            </p>
+                            <div class="bg-slate-900/50 p-6 rounded-xl border border-white/5">
+                                <ul class="space-y-4 text-sm text-slate-300">
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-book-section text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Law:</strong> Regulatory analysis and election-related legal products.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-handshake text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Disputes:</strong> Conflict mediation and process dispute resolution.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-exclamation-triangle text-red-400 mt-1 shrink-0"></i>
+                                        <span><strong>Violation Handling:</strong> Investigation and enforcement of reports/findings.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-chart-bar text-indigo-400 mt-1 shrink-0"></i>
+                                        <span><strong>Data Analysis:</strong> Processed election-monitoring data for accurate reporting.</span>
+                                    </li>
+                                    <li class="flex items-start gap-3">
+                                        <i class="fas fa-bullhorn text-orange-400 mt-1 shrink-0"></i>
+                                        <span><strong>Public Relations:</strong> Regulation socialization and inter-agency cooperation.</span>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>

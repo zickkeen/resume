@@ -1,91 +1,147 @@
 order: 7
 title:
-    id: UPAZNET
-    en: UPAZNET
+    id: PROYEK KHUSUS
+    en: SPECIAL PROJECT
 id: |
-    <!-- SECTION 7: UPAZNET (2021-2022) -->
+    <!-- SECTION 6: SPECIAL PROJECT (EP 5.1) - NEW! -->
             <section class="section" id="section-7">
                 <div class="bg-grid"></div>
-                <div class="glow-blob" style="bottom: 10%; right: 10%; background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);"></div>
+                <div class="timeline-line-v"></div>
+                <!-- Yellow Glow for Special Project -->
+                <div class="glow-blob" style="bottom: 20%; left: 20%; background: radial-gradient(circle, rgba(234, 179, 8, 0.2) 0%, transparent 70%);"></div>
     
                 <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     
-                    <!-- Left: Text -->
-                    <div class="text-left" data-aos="fade-right">
-                        <span class="text-emerald-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 6: NETWORK ARCHITECT</span>
-                        <h2 class="text-4xl font-heading font-bold mb-4 text-emerald-100">Arsitek ISP</h2>
-                        <p class="text-slate-400 text-lg mb-6">
-                            Kembali ke teknis penuh di <strong>Upaznet</strong>. Mendesain topologi yang menghubungkan ribuan pengguna dengan latensi minimal.
-                        </p>
-                        <ul class="space-y-3 text-slate-300">
-                            <li class="flex items-center gap-3">
-                                <i class="fas fa-check-circle text-emerald-500"></i> Desain Routing BGP & OSPF
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <i class="fas fa-check-circle text-emerald-500"></i> Manajemen VLAN & Traffic Engineering
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <i class="fas fa-check-circle text-emerald-500"></i> Optimasi Mikrotik & Cisco
-                            </li>
-                        </ul>
+                    <!-- Left: Visual Stats -->
+                    <div class="order-2 md:order-1" data-aos="zoom-in">
+                        <div class="glass-card p-8 rounded-2xl border-t-4 border-yellow-500 relative bg-[#0f172a]/95 shadow-2xl">
+                            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-slate-900 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider shadow-lg">
+                                High Scale Engineering
+                            </div>
+    
+                            <div class="text-center mb-4 mt-2">
+                                <i class="fab fa-telegram text-5xl text-blue-400 mb-4 inline-block"></i>
+                                <h3 class="text-2xl font-heading font-bold text-white">Bot Real-Count Jatim</h3>
+                                <p class="text-slate-400 text-sm">Technical Lead (Ad-Hoc Project)</p>
+                            </div>
+    
+                            <!-- Timeline Badge -->
+                            <div class="text-center mb-8">
+                                <div class="inline-block px-4 py-1 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-200 text-xs font-mono">
+                                    Okt 2020 — Mar 2021
+                                </div>
+                            </div>
+    
+                            <!-- High Load Stats -->
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
+                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Coverage</div>
+                                    <div class="text-2xl font-bold text-white">19</div>
+                                    <div class="text-[10px] text-slate-400">Kabupaten/Kota</div>
+                                </div>
+                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
+                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Active Users</div>
+                                    <div class="text-2xl font-bold text-white">48.6K</div>
+                                    <div class="text-[10px] text-slate-400">Pengawas TPS</div>
+                                </div>
+                                <div class="col-span-2 bg-gradient-to-r from-red-900/40 to-slate-900/60 p-4 rounded-xl border border-red-500/40 relative overflow-hidden flex items-center justify-between">
+                                    <div class="absolute inset-0 bg-red-500/5 animate-pulse"></div>
+                                    <div class="text-left relative z-10">
+                                        <div class="text-[10px] uppercase tracking-wider text-red-300 mb-1">Peak Traffic Load</div>
+                                        <div class="text-3xl font-bold text-white">> 100k</div>
+                                        <div class="text-xs text-red-200">Requests / Second</div>
+                                    </div>
+                                    <i class="fas fa-bolt text-yellow-400 text-3xl animate-bounce relative z-10 mr-4"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
     
-                    <!-- Right: Visual -->
-                    <div class="relative" data-aos="fade-left">
-                        <div class="glass-card p-8 rounded-2xl border-l-4 border-emerald-500 relative overflow-hidden group hover:scale-105 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <i class="fas fa-network-wired text-4xl text-emerald-400 mb-4"></i>
-                            <h3 class="text-2xl font-heading font-bold mb-2">Network Admin</h3>
-                            <p class="text-slate-400 text-sm">2021 — 2022</p>
-                            <div class="mt-6 flex gap-4 text-4xl text-slate-600">
-                                <i class="fas fa-server hover:text-emerald-400 transition-colors"></i>
-                                <i class="fas fa-wifi hover:text-emerald-400 transition-colors"></i>
-                                <i class="fas fa-globe hover:text-emerald-400 transition-colors"></i>
-                            </div>
+                    <!-- Right: Text -->
+                    <div class="order-1 md:order-2 text-left" data-aos="fade-left">
+                        <span class="text-yellow-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5.1: SPECIAL PROJECT</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-yellow-50">Teknologi Skala Besar</h2>
+    
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            Di tengah kesibukan sebagai Komisioner, jiwa <em>engineer</em> saya dipanggil kembali. Bawaslu Jawa Timur mempercayakan pembangunan sistem pelaporan digital yang harus melayani <strong>48.600 pengguna secara serentak</strong>.
+                        </p>
+    
+                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-yellow-500">
+                            <p class="text-slate-300 text-sm italic">
+                                "Proyek ini bukan sekadar coding, tapi tentang arsitektur sistem yang mampu bertahan dari gempuran traffic masif saat penghitungan suara berlangsung."
+                            </p>
                         </div>
                     </div>
                 </div>
             </section>
 en: |
-    <!-- SECTION 7: UPAZNET (2021-2022) -->
+    <!-- SECTION 6: SPECIAL PROJECT (EP 5.1) - NEW! -->
             <section class="section" id="section-7">
                 <div class="bg-grid"></div>
-                <div class="glow-blob" style="bottom: 10%; right: 10%; background: radial-gradient(circle, rgba(16, 185, 129, 0.2) 0%, transparent 70%);"></div>
+                <div class="timeline-line-v"></div>
+                <!-- Yellow Glow for Special Project -->
+                <div class="glow-blob" style="bottom: 20%; left: 20%; background: radial-gradient(circle, rgba(234, 179, 8, 0.2) 0%, transparent 70%);"></div>
     
                 <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
     
-                    <!-- Left: Text -->
-                    <div class="text-left" data-aos="fade-right">
-                        <span class="text-emerald-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 6: NETWORK ARCHITECT</span>
-                        <h2 class="text-4xl font-heading font-bold mb-4 text-emerald-100">ISP Architect</h2>
-                        <p class="text-slate-400 text-lg mb-6">
-                            Returned to core technical work at <strong>Upaznet</strong>. Designed topologies connecting thousands of users with minimal latency.
-                        </p>
-                        <ul class="space-y-3 text-slate-300">
-                            <li class="flex items-center gap-3">
-                                <i class="fas fa-check-circle text-emerald-500"></i> BGP & OSPF Routing Design
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <i class="fas fa-check-circle text-emerald-500"></i> VLAN & Traffic Engineering
-                            </li>
-                            <li class="flex items-center gap-3">
-                                <i class="fas fa-check-circle text-emerald-500"></i> Mikrotik & Cisco Optimization
-                            </li>
-                        </ul>
+                    <!-- Left: Visual Stats -->
+                    <div class="order-2 md:order-1" data-aos="zoom-in">
+                        <div class="glass-card p-8 rounded-2xl border-t-4 border-yellow-500 relative bg-[#0f172a]/95 shadow-2xl">
+                            <div class="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-500 text-slate-900 text-xs font-bold px-4 py-1 rounded-full uppercase tracking-wider shadow-lg">
+                                High Scale Engineering
+                            </div>
+    
+                            <div class="text-center mb-4 mt-2">
+                                <i class="fab fa-telegram text-5xl text-blue-400 mb-4 inline-block"></i>
+                                <h3 class="text-2xl font-heading font-bold text-white">Bot Real-Count Jatim</h3>
+                                <p class="text-slate-400 text-sm">Technical Lead (Ad-Hoc Project)</p>
+                            </div>
+    
+                            <!-- Timeline Badge -->
+                            <div class="text-center mb-8">
+                                <div class="inline-block px-4 py-1 rounded-full bg-yellow-500/10 border border-yellow-500/30 text-yellow-200 text-xs font-mono">
+                                    Oct 2020 — Mar 2021
+                                </div>
+                            </div>
+    
+                            <!-- High Load Stats -->
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
+                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Coverage</div>
+                                    <div class="text-2xl font-bold text-white">19</div>
+                                    <div class="text-[10px] text-slate-400">Regencies/Cities</div>
+                                </div>
+                                <div class="bg-slate-900 p-4 rounded-xl border border-white/10 text-center">
+                                    <div class="text-[10px] uppercase tracking-wider text-slate-500 mb-1">Active Users</div>
+                                    <div class="text-2xl font-bold text-white">48.6K</div>
+                                    <div class="text-[10px] text-slate-400">Polling Station Supervisors</div>
+                                </div>
+                                <div class="col-span-2 bg-gradient-to-r from-red-900/40 to-slate-900/60 p-4 rounded-xl border border-red-500/40 relative overflow-hidden flex items-center justify-between">
+                                    <div class="absolute inset-0 bg-red-500/5 animate-pulse"></div>
+                                    <div class="text-left relative z-10">
+                                        <div class="text-[10px] uppercase tracking-wider text-red-300 mb-1">Peak Traffic Load</div>
+                                        <div class="text-3xl font-bold text-white">> 100k</div>
+                                        <div class="text-xs text-red-200">Requests / Second</div>
+                                    </div>
+                                    <i class="fas fa-bolt text-yellow-400 text-3xl animate-bounce relative z-10 mr-4"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
     
-                    <!-- Right: Visual -->
-                    <div class="relative" data-aos="fade-left">
-                        <div class="glass-card p-8 rounded-2xl border-l-4 border-emerald-500 relative overflow-hidden group hover:scale-105 transition-transform duration-500">
-                            <div class="absolute inset-0 bg-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <i class="fas fa-network-wired text-4xl text-emerald-400 mb-4"></i>
-                            <h3 class="text-2xl font-heading font-bold mb-2">Network Admin</h3>
-                            <p class="text-slate-400 text-sm">2021 — 2022</p>
-                            <div class="mt-6 flex gap-4 text-4xl text-slate-600">
-                                <i class="fas fa-server hover:text-emerald-400 transition-colors"></i>
-                                <i class="fas fa-wifi hover:text-emerald-400 transition-colors"></i>
-                                <i class="fas fa-globe hover:text-emerald-400 transition-colors"></i>
-                            </div>
+                    <!-- Right: Text -->
+                    <div class="order-1 md:order-2 text-left" data-aos="fade-left">
+                        <span class="text-yellow-500 font-mono text-sm tracking-widest mb-2 block">EPISODE 5.1: SPECIAL PROJECT</span>
+                        <h2 class="text-4xl md:text-5xl font-heading font-bold mb-6 text-yellow-50">Large-Scale Technology</h2>
+    
+                        <p class="text-slate-400 text-lg leading-relaxed mb-6">
+                            While serving as Commissioner, my engineer side was called back. Bawaslu East Java entrusted me to build a digital reporting system serving <strong>48,600 users concurrently</strong>.
+                        </p>
+    
+                        <div class="bg-slate-800/50 p-4 rounded-lg border-l-4 border-yellow-500">
+                            <p class="text-slate-300 text-sm italic">
+                                "This project was not just coding but architecture that could withstand massive traffic surges during vote counting."
+                            </p>
                         </div>
                     </div>
                 </div>

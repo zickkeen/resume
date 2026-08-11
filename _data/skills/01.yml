@@ -1,0 +1,34 @@
+name:
+  id: Network & Security
+  en: Network & Security
+tags:
+  - label: Mikrotik
+    title: Network Device
+    class: border-orange-500/30 text-orange-300
+  - label: Cisco
+    title: Network Device
+    class: border-orange-500/30 text-orange-300
+  - label: BGP & OSPF
+    title: Routing Protocol
+    class: border-orange-500/30 text-orange-300
+  - label: VLAN Mgmt
+    title: Network Mgmt
+    class: text-slate-400
+  - label: Wazuh SIEM
+    title: SIEM
+    class: border-green-500/30 text-green-300
+  - label: Imunify360
+    title: Security Suite
+    class: border-green-500/30 text-green-300
+  - label: Bitninja
+    title: Security Suite
+    class: text-slate-400
+  - label: Penetration Test
+    title: Security Action
+    class: border-red-500/30 text-red-300
+  - label: Incident Response
+    title: Security Action
+    class: border-red-500/30 text-red-300
+  - label: System Audit
+    title: Audit
+    class: text-slate-400

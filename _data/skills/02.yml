@@ -1,0 +1,25 @@
+name:
+  id: Dev & IoT
+  en: Dev & IoT
+tags:
+  - label: Bash
+    title: Scripting
+    class: border-purple-500/30 text-purple-300
+  - label: PHP/Laravel
+    title: Backend
+    class: text-slate-400
+  - label: Node.js
+    title: Backend
+    class: text-slate-400
+  - label: Go
+    title: Programming
+    class: text-slate-400
+  - label: C/C++
+    title: Programming
+    class: text-slate-400
+  - label: ESP32 & Arduino
+    title: IoT
+    class: border-yellow-500/30 text-yellow-300
+  - label: Git/Gogs
+    title: Tools
+    class: text-slate-400

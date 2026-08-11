@@ -1,20 +1,24 @@
 order: 5
 title:
-  id: Pengalaman Awal (Early Career)
-  en: Early Career
+  id: Sekretaris & Administrator Data
+  en: Secretary & Data Administrator
 period:
-  id: 2011 — 2020
-  en: 2011 — 2020
+  id: 2011 — 2018
+  en: 2011 — 2018
 badge_class: text-[10px] font-bold text-slate-500 bg-gray-200 px-2 py-0.5 rounded
-no_border: true
-summary:
+company:
+  id: Koperasi Wahidiyah Kec. Wonosari
+  en: Wahidiyah Cooperative, Wonosari District
+bullets:
   id:
-  - <strong>Freelance IT Support (2011-2020):</strong> Solusi teknis untuk berbagai
-    Institusi Pemerintahan, Sekolah, dan Badan Usaha.
-  - <strong>Guru Teknologi Informasi (2011-2013):</strong> Mengajar di Madrasah Aliyah
-    Swasta, Kab. Malang.
+  - Administrasi kesekretariatan & pengelolaan dokumen koperasi.
+  - Pendataan anggota, simpanan, dan transaksi menggunakan <strong>Microsoft Excel</strong>.
+  - <strong>Excel Expert</strong>: penyusunan laporan, formula, dan analisis data.
+  - <strong>Data Analyst</strong>: analisis data simpanan, kredit, & keanggotaan untuk pengambilan keputusan.
+  - <strong>ERP & Odoo (Basic)</strong>: memahami alur modul akuntansi, inventori & pelaporan.
   en:
-  - <strong>Freelance IT Support (2011-2020):</strong> Technical solutions for government
-    institutions, schools, and businesses.
-  - <strong>IT Instructor (2011-2013):</strong> Taught at a private Madrasah Aliyah
-    in Kab. Malang.
+  - Handled secretarial administration & cooperative documentation.
+  - Maintained member, savings, and transaction records with <strong>Microsoft Excel</strong>.
+  - <strong>Excel Expert</strong>: professional reporting, formulas, and data analysis.
+  - <strong>Data Analyst</strong>: analyzed savings, credit, & membership data to support decision-making.
+  - <strong>ERP & Odoo (Basic)</strong>: familiar with accounting, inventory & reporting workflows.
