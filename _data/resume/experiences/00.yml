@@ -1,7 +1,7 @@
 order: 0
 title:
-  id: System Administrator
-  en: System Administrator
+  id: System Administrator / Linux Systems Engineer
+  en: System Administrator / Linux Systems Engineer
 period:
   id: 2022 — Sekarang
   en: 2022 — Present
@@ -11,12 +11,12 @@ company:
   en: Jagoanhosting Indonesia
 bullets:
   id:
-  - Manajemen Cluster Server (Proxmox, Virtualizor, KVM, OpenVZ).
-  - Optimasi <strong>CloudLinux + cPanel</strong> dan troubleshooting mendalam.
-  - Keamanan server proaktif dengan <strong>Bitninja</strong> & Wazuh SIEM.
-  - Pengembangan tool internal menggunakan <strong>PHP, JavaScript, Go, & C++</strong>.
+  - Mengelola dan mengoptimasi kluster virtualisasi berdensitas tinggi (Proxmox VE, KVM, CloudLinux/cPanel) yang menampung ribuan lingkungan server tenant.
+  - Menerapkan keamanan host proaktif, pemantauan log, dan deteksi ancaman menggunakan Wazuh SIEM, Imunify360, dan BitNinja, memangkas insiden intrusi kritis.
+  - Menyelesaikan insiden produksi L2/L3 kompleks sesuai SLA ketat melalui CLI, analisis forensik log, dan otomatisasi skrip operasional bash/Go.
+  - Mengembangkan tool internal dan otomatisasi operasional menggunakan <strong>PHP, JavaScript, Go, & C++</strong>.
   en:
-  - Manage server clusters (Proxmox, Virtualizor, KVM, OpenVZ).
-  - Optimize <strong>CloudLinux + cPanel</strong> and perform deep troubleshooting.
-  - Proactive server security with <strong>Bitninja</strong> & Wazuh SIEM.
-  - Develop internal tools using <strong>PHP, JavaScript, Go, & C++</strong>.
+  - Administered and tuned high-density virtualization clusters (Proxmox VE, KVM, CloudLinux/cPanel) hosting thousands of tenant environments.
+  - Implemented proactive host security, log monitoring, and threat detection using Wazuh SIEM, Imunify360, and BitNinja, cutting critical intrusion incidents.
+  - Resolved complex L2/L3 production incidents within strict SLAs via CLI, log forensics, and automated bash/Go operational scripts.
+  - Developed internal operational tooling and automation scripts using <strong>PHP, JavaScript, Go, & C++</strong>.

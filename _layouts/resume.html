@@ -21,8 +21,8 @@
     </div>
 
     <div class="no-print fixed top-4 right-4 z-50 flex gap-2">
-        <a href="#" onclick="switchResumeLang('{{ '/id/resume/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full {% if is_id %}bg-white text-slate-900 font-semibold{% else %}bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition{% endif %}">ID</a>
-        <a href="#" onclick="switchResumeLang('{{ '/en/resume/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full {% unless is_id %}bg-white text-slate-900 font-semibold{% else %}bg-transparent border border-white/20 text-white hover:bg-white hover:text-slate-900 transition{% endunless %}">EN</a>
+        <a href="#" onclick="switchResumeLang('{{ '/id/resume/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full text-xs font-semibold transition {% if is_id %}bg-white text-slate-900 shadow{% else %}bg-slate-800/80 border border-white/20 text-white hover:bg-white hover:text-slate-900{% endif %}">ID</a>
+        <a href="#" onclick="switchResumeLang('{{ '/en/resume/' | relative_url }}'); return false;" class="px-3 py-1 rounded-full text-xs font-semibold transition {% unless is_id %}bg-white text-slate-900 shadow{% else %}bg-slate-800/80 border border-white/20 text-white hover:bg-white hover:text-slate-900{% endunless %}">EN</a>
     </div>
 
     {% if is_id %}

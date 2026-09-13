@@ -1,19 +1,18 @@
 order: 2
 title:
-  id: Technical Lead (Bot Real-Count)
-  en: Technical Lead (Real-Count Bot)
+  id: Network Administrator
+  en: Network Administrator
 period:
-  id: Okt 2020 — Mar 2021
-  en: Oct 2020 — Mar 2021
-badge_class: text-[10px] font-bold text-slate-500 bg-yellow-100 text-yellow-700 px-2
-  py-0.5 rounded
+  id: 2021 — 2022
+  en: 2021 — 2022
+badge_class: text-[10px] font-bold text-slate-600 bg-slate-100 px-2 py-0.5 rounded
 company:
-  id: Bawaslu Jawa Timur (Ad-Hoc Project)
-  en: Bawaslu East Java (Ad-Hoc Project)
+  id: Upaznet Provider
+  en: Upaznet Provider
 bullets:
   id:
-  - Membangun sistem pelaporan Telegram Bot untuk <strong>48.600 Pengawas TPS</strong>.
-  - Menangani <em>High Traffic Load</em> (>100k requests/detik) saat perhitungan suara.
+  - Merancang dan memelihara topologi jaringan ISP menggunakan perangkat Mikrotik dan Cisco.
+  - Mengonfigurasi protokol routing inti (BGP, OSPF) dan manajemen segmentasi VLAN untuk menjamin ketersediaan tinggi serta performa jaringan optimal.
   en:
-  - Built a Telegram reporting system for <strong>48,600 Polling Station Supervisors</strong>.
-  - Handled <em>High Traffic Load</em> (>100k requests/sec) during vote counting.
+  - Designed and maintained ISP network topologies utilizing Mikrotik and Cisco infrastructure.
+  - Configured core routing protocols (BGP, OSPF) and managed VLAN segmentation, ensuring high network availability and throughput.
