@@ -1,16 +1,13 @@
 name:
-  id: Data Analyst
-  en: Data Analyst
+  id: Analisis & Operasional
+  en: Data & Operations
 tags:
-  - label: Python (Expert)
-    title: Data Science
+  - label: Microsoft Excel
+    title: Spreadsheets & Analysis
     class: border-indigo-500/30 text-indigo-300
-  - label: Microsoft Excel (Expert)
-    title: Spreadsheets
+  - label: Data Reconciliation
+    title: Reporting
     class: border-indigo-500/30 text-indigo-300
-  - label: ERP
-    title: ERP
-    class: border-indigo-500/30 text-indigo-300
-  - label: Odoo (Basic)
-    title: ERP
+  - label: ERP & Odoo
+    title: Enterprise Systems
     class: border-indigo-500/30 text-indigo-300
