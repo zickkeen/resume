@@ -7,24 +7,22 @@
         <p class="text-xs md:text-sm font-semibold text-blue-700 mt-1 tracking-wide uppercase">
             Linux Systems & Cloud Support Engineer | Infrastructure & Security Specialist
         </p>
-        <div class="text-xs text-slate-600 flex flex-wrap justify-center items-center gap-x-3 gap-y-1 mt-2.5">
-            <span class="flex items-center gap-1.5"><i class="fas fa-envelope text-slate-500"></i><a href="mailto:me@fatur.my.id" class="hover:text-blue-600">me@fatur.my.id</a></span>
-            <span class="text-slate-300">•</span>
-            <span class="flex items-center gap-1.5"><i class="fas fa-phone text-slate-500"></i>+62 851 0528 8796</span>
-            <span class="text-slate-300">•</span>
-            <span class="flex items-center gap-1.5"><i class="fas fa-map-marker-alt text-slate-500"></i>East Java, Indonesia</span>
-            <span class="text-slate-300">•</span>
-            <span class="flex items-center gap-1.5"><i class="fas fa-globe text-slate-500"></i><a href="https://about.fatur.my.id" target="_blank" class="hover:text-blue-600">about.fatur.my.id</a></span>
-            <span class="text-slate-300">•</span>
-            <span class="flex items-center gap-1.5"><i class="fab fa-linkedin text-slate-500"></i><a href="https://linkedin.com/in/zickkeen" target="_blank" class="hover:text-blue-600">linkedin.com/in/zickkeen</a></span>
+        <div class="text-xs text-slate-600 flex flex-wrap justify-center items-center gap-x-2 gap-y-1 mt-2.5">
+            <a href="mailto:me@fatur.my.id" class="hover:text-blue-600">me@fatur.my.id</a>
+            <span class="text-slate-300">|</span>
+            <span>+62 851 0528 8796</span>
+            <span class="text-slate-300">|</span>
+            <span>East Java, Indonesia</span>
+            <span class="text-slate-300">|</span>
+            <a href="https://about.fatur.my.id" target="_blank" class="hover:text-blue-600">about.fatur.my.id</a>
+            <span class="text-slate-300">|</span>
+            <a href="https://linkedin.com/in/zickkeen" target="_blank" class="hover:text-blue-600">linkedin.com/in/zickkeen</a>
         </div>
     </header>
 
     <!-- Professional Summary -->
     <section class="mb-4">
-        <h2 class="resume-section-title">
-            <i class="fas fa-user-circle text-blue-600"></i> Professional Summary
-        </h2>
+        <h2 class="resume-section-title">Professional Summary</h2>
         <p class="text-xs text-slate-700 leading-relaxed text-justify">
             Results-driven <strong>Linux Systems & Cloud Support Engineer</strong> and <strong>Infrastructure & Security Specialist</strong> with proven experience administering high-density virtualization clusters (Proxmox VE, KVM, CloudLinux/cPanel) and ISP networks. Demonstrated track record in high-concurrency architectures, successfully scaling Telegram Bot backends to >100,000 req/sec with zero downtime. Skilled in proactive threat mitigation (Wazuh SIEM, Imunify360, BitNinja), L2/L3 incident resolution within strict SLAs, and operational automation using Bash, Python, and Go.
         </p>
@@ -32,17 +30,13 @@
 
     <!-- Technical Skills -->
     <section class="mb-4">
-        <h2 class="resume-section-title">
-            <i class="fas fa-tools text-blue-600"></i> Technical Skills
-        </h2>
+        <h2 class="resume-section-title">Technical Skills</h2>
         {% include resume/skills.html %}
     </section>
 
     <!-- Work Experience -->
     <section class="mb-4">
-        <h2 class="resume-section-title">
-            <i class="fas fa-briefcase text-blue-600"></i> Work Experience
-        </h2>
+        <h2 class="resume-section-title">Work Experience</h2>
         {% assign locale = 'en' %}
         {% assign experiences = site.data.resume.experiences | sort %}
         <div class="space-y-3.5">
@@ -79,23 +73,21 @@
 
     <!-- Education -->
     <section class="mb-2">
-        <h2 class="resume-section-title">
-            <i class="fas fa-graduation-cap text-blue-600"></i> Education
-        </h2>
-        <div class="space-y-2.5">
-            <div class="edu-item flex justify-between items-baseline">
-                <div>
-                    <h3 class="font-bold text-slate-900 text-xs">Institut Teknologi Tangerang Selatan (ITTS)</h3>
-                    <p class="text-xs text-slate-600">Bachelor of Information Technology (S.Kom.)</p>
-                </div>
-                <span class="text-xs font-semibold text-blue-700">Graduated 2026</span>
+        <h2 class="resume-section-title">Education</h2>
+        <div class="space-y-1.5 text-xs">
+            <div class="edu-item">
+                <span class="font-bold text-slate-900">Bachelor of Information Technology (S.Kom.)</span>
+                <span class="text-slate-400 mx-1.5">|</span>
+                <span class="text-slate-700">Institut Teknologi Tangerang Selatan (ITTS)</span>
+                <span class="text-slate-400 mx-1.5">—</span>
+                <span class="font-semibold text-blue-700">Graduated 2026</span>
             </div>
-            <div class="edu-item flex justify-between items-baseline">
-                <div>
-                    <h3 class="font-bold text-slate-900 text-xs">Sekolah Tinggi Teknik Malang (STT Malang)</h3>
-                    <p class="text-xs text-slate-600">Diploma in Information Technology (D1)</p>
-                </div>
-                <span class="text-xs font-medium text-slate-500">Graduated 2013</span>
+            <div class="edu-item">
+                <span class="font-bold text-slate-900">Diploma in Information Technology (D1)</span>
+                <span class="text-slate-400 mx-1.5">|</span>
+                <span class="text-slate-700">Sekolah Tinggi Teknik Malang (STT Malang)</span>
+                <span class="text-slate-400 mx-1.5">—</span>
+                <span class="font-medium text-slate-500">Graduated 2013</span>
             </div>
         </div>
     </section>
